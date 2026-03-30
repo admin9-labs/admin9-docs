@@ -302,7 +302,20 @@
       },
       {
         "header": "Social",
-        "items": []
+        "items": [
+          {
+            "label": "X",
+            "href": "https://docs.admin9.dev/#"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://docs.admin9.dev/#"
+          },
+          {
+            "label": "Discord",
+            "href": "https://docs.admin9.dev/#"
+          }
+        ]
       }
     ]
   }
