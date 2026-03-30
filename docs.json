@@ -9,113 +9,234 @@
     "dark": "#a82100"
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Docs",
-        "groups": [
+        "language": "en",
+        "default": true,
+        "tabs": [
           {
-            "group": "Overview & Setup",
-            "pages": [
-              "index",
-              "products/admin9-variants",
-              "getting-started/installation",
-              "getting-started/local-development",
-              "guides/admin9-tenancy"
+            "tab": "Docs",
+            "groups": [
+              {
+                "group": "Overview & Setup",
+                "pages": [
+                  "index",
+                  "products/admin9-variants",
+                  "getting-started/installation",
+                  "getting-started/local-development",
+                  "guides/admin9-tenancy"
+                ]
+              },
+              {
+                "group": "Architecture",
+                "pages": [
+                  "architecture/overview",
+                  "architecture/application-structure"
+                ]
+              },
+              {
+                "group": "Guides",
+                "pages": [
+                  "guides/configuration",
+                  "guides/configuration-system",
+                  "guides/feature-systems",
+                  "guides/authentication-and-identity",
+                  "guides/payments-and-billing",
+                  "guides/payment-webhooks-and-local-testing",
+                  "guides/events-and-extension-points",
+                  "guides/localization-and-theming"
+                ]
+              },
+              {
+                "group": "Reference & Release",
+                "pages": [
+                  "reference/commands-and-endpoints",
+                  "reference/testing-and-quality",
+                  "deployment/release-checklist"
+                ]
+              }
             ]
           },
           {
-            "group": "Architecture",
-            "pages": [
-              "architecture/overview",
-              "architecture/application-structure"
+            "tab": "Admin Docs",
+            "groups": [
+              {
+                "group": "Start Here",
+                "pages": [
+                  "admin-guide/overview",
+                  "admin-guide/launch-runbook",
+                  "admin-guide/settings-matrix"
+                ]
+              },
+              {
+                "group": "Catalog & Revenue",
+                "pages": [
+                  "admin-guide/products-and-pricing",
+                  "admin-guide/subscriptions-and-transactions",
+                  "admin-guide/payment-providers",
+                  "admin-guide/invoice-settings",
+                  "admin-guide/referral-settings"
+                ]
+              },
+              {
+                "group": "Users & Access",
+                "pages": [
+                  "admin-guide/users-and-access",
+                  "admin-guide/oauth-providers",
+                  "admin-guide/verification-providers",
+                  "admin-guide/support-playbook"
+                ]
+              },
+              {
+                "group": "Content & Site Operations",
+                "pages": [
+                  "admin-guide/content-and-site-settings",
+                  "admin-guide/content-operations",
+                  "admin-guide/legal-pages-and-compliance",
+                  "admin-guide/general-settings",
+                  "admin-guide/analytics-and-open-graph"
+                ]
+              },
+              {
+                "group": "Integrations",
+                "pages": [
+                  "admin-guide/providers-and-integrations",
+                  "admin-guide/email-providers"
+                ]
+              }
             ]
           },
           {
-            "group": "Guides",
-            "pages": [
-              "guides/configuration",
-              "guides/configuration-system",
-              "guides/feature-systems",
-              "guides/authentication-and-identity",
-              "guides/payments-and-billing",
-              "guides/payment-webhooks-and-local-testing",
-              "guides/events-and-extension-points",
-              "guides/localization-and-theming"
-            ]
-          },
-          {
-            "group": "Reference & Release",
-            "pages": [
-              "reference/commands-and-endpoints",
-              "reference/testing-and-quality",
-              "deployment/release-checklist"
+            "tab": "Open Source",
+            "groups": [
+              {
+                "group": "Start Here",
+                "pages": [
+                  "open-source/overview"
+                ]
+              },
+              {
+                "group": "Repositories",
+                "pages": [
+                  "open-source/application-starters",
+                  "open-source/laravel-packages"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Admin Docs",
-        "groups": [
+        "language": "zh",
+        "tabs": [
           {
-            "group": "Start Here",
-            "pages": [
-              "admin-guide/overview",
-              "admin-guide/launch-runbook",
-              "admin-guide/settings-matrix"
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "概览与安装",
+                "pages": [
+                  "zh/index",
+                  "zh/products/admin9-variants",
+                  "zh/getting-started/installation",
+                  "zh/getting-started/local-development",
+                  "zh/guides/admin9-tenancy"
+                ]
+              },
+              {
+                "group": "架构",
+                "pages": [
+                  "zh/architecture/overview",
+                  "zh/architecture/application-structure"
+                ]
+              },
+              {
+                "group": "指南",
+                "pages": [
+                  "zh/guides/configuration",
+                  "zh/guides/configuration-system",
+                  "zh/guides/feature-systems",
+                  "zh/guides/authentication-and-identity",
+                  "zh/guides/payments-and-billing",
+                  "zh/guides/payment-webhooks-and-local-testing",
+                  "zh/guides/events-and-extension-points",
+                  "zh/guides/localization-and-theming"
+                ]
+              },
+              {
+                "group": "参考与发布",
+                "pages": [
+                  "zh/reference/commands-and-endpoints",
+                  "zh/reference/testing-and-quality",
+                  "zh/deployment/release-checklist"
+                ]
+              }
             ]
           },
           {
-            "group": "Catalog & Revenue",
-            "pages": [
-              "admin-guide/products-and-pricing",
-              "admin-guide/subscriptions-and-transactions",
-              "admin-guide/payment-providers",
-              "admin-guide/invoice-settings",
-              "admin-guide/referral-settings"
+            "tab": "管理文档",
+            "groups": [
+              {
+                "group": "从这里开始",
+                "pages": [
+                  "zh/admin-guide/overview",
+                  "zh/admin-guide/launch-runbook",
+                  "zh/admin-guide/settings-matrix"
+                ]
+              },
+              {
+                "group": "目录与营收",
+                "pages": [
+                  "zh/admin-guide/products-and-pricing",
+                  "zh/admin-guide/subscriptions-and-transactions",
+                  "zh/admin-guide/payment-providers",
+                  "zh/admin-guide/invoice-settings",
+                  "zh/admin-guide/referral-settings"
+                ]
+              },
+              {
+                "group": "用户与访问",
+                "pages": [
+                  "zh/admin-guide/users-and-access",
+                  "zh/admin-guide/oauth-providers",
+                  "zh/admin-guide/verification-providers",
+                  "zh/admin-guide/support-playbook"
+                ]
+              },
+              {
+                "group": "内容与站点运营",
+                "pages": [
+                  "zh/admin-guide/content-and-site-settings",
+                  "zh/admin-guide/content-operations",
+                  "zh/admin-guide/legal-pages-and-compliance",
+                  "zh/admin-guide/general-settings",
+                  "zh/admin-guide/analytics-and-open-graph"
+                ]
+              },
+              {
+                "group": "集成",
+                "pages": [
+                  "zh/admin-guide/providers-and-integrations",
+                  "zh/admin-guide/email-providers"
+                ]
+              }
             ]
           },
           {
-            "group": "Users & Access",
-            "pages": [
-              "admin-guide/users-and-access",
-              "admin-guide/oauth-providers",
-              "admin-guide/verification-providers",
-              "admin-guide/support-playbook"
-            ]
-          },
-          {
-            "group": "Content & Site Operations",
-            "pages": [
-              "admin-guide/content-and-site-settings",
-              "admin-guide/content-operations",
-              "admin-guide/legal-pages-and-compliance",
-              "admin-guide/general-settings",
-              "admin-guide/analytics-and-open-graph"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "admin-guide/providers-and-integrations",
-              "admin-guide/email-providers"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Open Source",
-        "groups": [
-          {
-            "group": "Start Here",
-            "pages": [
-              "open-source/overview"
-            ]
-          },
-          {
-            "group": "Repositories",
-            "pages": [
-              "open-source/application-starters",
-              "open-source/laravel-packages"
+            "tab": "开源",
+            "groups": [
+              {
+                "group": "从这里开始",
+                "pages": [
+                  "zh/open-source/overview"
+                ]
+              },
+              {
+                "group": "仓库",
+                "pages": [
+                  "zh/open-source/application-starters",
+                  "zh/open-source/laravel-packages"
+                ]
+              }
             ]
           }
         ]
