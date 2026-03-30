@@ -1,6 +1,6 @@
 ---
 title: Admin9 Labs Documentation
-description: Organization-level entry point for Admin9 Labs product docs, product variants, and open source repositories.
+description: Organization-level entry point for shared Admin9 docs, product variants, admin operations, and open source repositories.
 ---
 
 Start here to choose the right Admin9 Labs documentation path before jumping into product setup, admin operations, or repository exploration.
@@ -11,8 +11,8 @@ Start here to choose the right Admin9 Labs documentation path before jumping int
   <Card title="Admin9 variants" href="/products/admin9-variants">
     Compare the single-tenant `admin9` product with the multi-tenant `admin9-tenancy` variant and see which docs are shared.
   </Card>
-  <Card title="Shared product docs" href="/getting-started/installation">
-    Use the Admin9 docs for installation, architecture, guides, admin operations, and release work shared by both variants.
+  <Card title="Shared docs" href="/getting-started/installation">
+    Use the main Admin9 docs for installation, architecture, guides, and release work shared by both variants.
   </Card>
   <Card title="Tenancy supplement" href="/guides/admin9-tenancy">
     Read the multi-tenant addendum when tenant scoping, provisioning, or tenant-level operations matter.
@@ -24,16 +24,15 @@ Start here to choose the right Admin9 Labs documentation path before jumping int
 
 ## Documentation structure
 
-This site is organized by documentation type:
+This site is organized into three primary documentation areas:
 
-- product docs for product positioning and variant boundaries
-- usage docs for installation, development, architecture, reference, and release workflows
+- docs for shared product setup, development, architecture, guides, and release workflows
 - admin docs for operator-facing panel workflows
 - open source docs for public repositories and reusable packages
 
-Within the product docs, `admin9` is the single-tenant variant and `admin9-tenancy` is the multi-tenant variant. Most pages are shared; multi-tenant-only differences are collected in the tenancy supplement.
+Within the main docs, `admin9` is the single-tenant variant and `admin9-tenancy` is the multi-tenant variant. Most pages are shared; multi-tenant-only differences are collected in the tenancy supplement.
 
-## What the Admin9 product docs cover
+## What the main Admin9 docs cover
 
 - launch a subscription SaaS with an admin panel and user dashboard
 - manage products, plans, pricing, discounts, invoices, and transactions

@@ -11,23 +11,13 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Product Docs",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Start Here",
+            "group": "Overview & Setup",
             "pages": [
               "index",
-              "products/admin9-variants"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Usage Docs",
-        "groups": [
-          {
-            "group": "Start Here",
-            "pages": [
+              "products/admin9-variants",
               "getting-started/installation",
               "getting-started/local-development",
               "guides/admin9-tenancy"
@@ -41,7 +31,7 @@
             ]
           },
           {
-            "group": "Core Guides",
+            "group": "Guides",
             "pages": [
               "guides/configuration",
               "guides/configuration-system",
