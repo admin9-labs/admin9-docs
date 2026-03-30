@@ -257,7 +257,7 @@
     "image": "/images/icon-high.png"
   },
   "interaction": {
-    "drilldown": false
+    "drilldown": true
   },
   "metadata": {
     "timestamp": true
