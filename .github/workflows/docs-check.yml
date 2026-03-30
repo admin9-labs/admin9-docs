@@ -25,6 +25,28 @@ jobs:
       - name: Check broken links
         run: mintlify broken-links
 
+  internal-route-style:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Reject relative .md links in docs content
+        run: |
+          if rg -n '\]\((\./|\.\./)[^)]*\.md\)' \
+            index.md \
+            admin-guide \
+            architecture \
+            deployment \
+            getting-started \
+            guides \
+            open-source \
+            reference; then
+            echo "Use Mintlify route paths like /guides/configuration instead of relative .md links."
+            exit 1
+          fi
+
   markdown-links:
     runs-on: ubuntu-latest
 
