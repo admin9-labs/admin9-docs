@@ -101,14 +101,4 @@ If you are reviewing the open source portfolio rather than deploying ADMIN9 itse
 - [Payment Webhooks and Local Testing](./guides/payment-webhooks-and-local-testing.md)
 - [Events and Extension Points](./guides/events-and-extension-points.md)
 
-## Source of truth
-
-For product behavior and version-sensitive details, treat these files in the main `admin9` application repository as the source of truth:
-
-- `admin9/composer.json` for PHP and backend package versions
-- `admin9/package.json` for frontend tooling versions
-- `admin9/routes/*.php` for public and API endpoints
-- `admin9/app/Providers/Filament/*PanelProvider.php` for panel paths and panel behavior
-- `admin9/.env.example` for documented environment variables
-
-If the repository changes, update the docs from those files first. If prose and code disagree, treat the codebase as authoritative.
+If prose and product behavior ever disagree, treat the current `admin9` codebase as authoritative.

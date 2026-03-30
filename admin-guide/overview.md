@@ -63,8 +63,6 @@ The panel provider defines these top-level groups:
 - Roadmap
 - Settings
 
-These groups reflect the intended operating model of the product.
-
 ## Related admin pages
 
 The admin panel also includes several standalone settings pages:

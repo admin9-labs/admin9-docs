@@ -15,8 +15,6 @@ This section gives you a stable map of the public projects linked from the `admi
 - Use [Application Starters](./application-starters.md) if you are evaluating full starter kits or reference apps.
 - Use [Laravel Packages](./laravel-packages.md) if you want reusable packages for auth, OIDC, UI, or API documentation.
 
-This tab is intentionally separate from the main ADMIN9 implementation docs so product documentation and organization discovery do not compete for the same navigation space.
-
 ## Portfolio map
 
 <CardGroup cols={2}>
@@ -42,13 +40,3 @@ This tab is intentionally separate from the main ADMIN9 implementation docs so p
 - [`laravel-oidc-server`](https://github.com/admin9-labs/laravel-oidc-server): OIDC server package built for Laravel Passport deployments.
 - [`laravel-scramble-extensions`](https://github.com/admin9-labs/laravel-scramble-extensions): OpenAPI documentation helpers for business-response APIs.
 - [`blade-daisyui`](https://github.com/admin9-labs/blade-daisyui): Blade wrapper components for DaisyUI 5.
-
-### Organization infrastructure
-
-- [`.github`](https://github.com/admin9-labs/.github): Shared organization profile and GitHub-level metadata.
-
-## How this section is intended to work
-
-- use this tab as the portfolio index for repositories that do not yet need their own standalone documentation site
-- keep product-level ADMIN9 documentation in the main docs tabs so implementation guidance stays separate from organization discovery
-- link out to package-specific or project-specific docs when an individual repository grows beyond overview-level coverage

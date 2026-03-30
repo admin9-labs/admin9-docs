@@ -13,7 +13,7 @@ These repositories are the most relevant entry points if you want a clone-and-bu
 - Primary language: PHP
 - License: MIT
 
-`admin9-api` is positioned as a production-ready Laravel 12 REST API scaffold. It focuses on common backend concerns that most commercial applications need early:
+`admin9-api` is a Laravel 12 REST API scaffold focused on common backend concerns that most commercial applications need early:
 
 - JWT authentication
 - role and permission management
@@ -41,7 +41,7 @@ Use it when your delivery model is:
 
 - Repository: [`admin9-labs/admin9-docs`](https://github.com/admin9-labs/admin9-docs)
 
-This repository is the Mintlify source for the current documentation site. Use it when you need to update shared product documentation, operator runbooks, or the open-source portfolio index.
+This repository is the Mintlify source for the current documentation site. Use it when you need to update product documentation or operator runbooks.
 
 ## Which starter to begin with
 
