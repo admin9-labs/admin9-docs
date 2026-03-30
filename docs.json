@@ -248,7 +248,12 @@
     "default": "system"
   },
   "navbar": {
-    "links": []
+    "links": [
+      {
+        "label": "Get Admin9",
+        "href": "https://admin9.dev/blog"
+      }
+    ]
   },
   "interaction": {
     "drilldown": true
@@ -294,6 +299,10 @@
             "href": "https://admin9.dev/terms-of-service"
           }
         ]
+      },
+      {
+        "header": "Social",
+        "items": []
       }
     ]
   }
