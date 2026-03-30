@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ADMIN9 Docs",
-  "description": "Developer documentation for the ADMIN9 Laravel SaaS starter kit.",
+  "name": "Admin9 Labs Docs",
+  "description": "Documentation for Admin9 Labs products, product variants, and open source repositories.",
   "colors": {
     "primary": "#f53003",
     "light": "#ff7a66",
@@ -11,14 +11,26 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Developer Docs",
+        "tab": "Product Docs",
         "groups": [
           {
             "group": "Start Here",
             "pages": [
               "index",
+              "products/admin9-variants"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Usage Docs",
+        "groups": [
+          {
+            "group": "Start Here",
+            "pages": [
               "getting-started/installation",
-              "getting-started/local-development"
+              "getting-started/local-development",
+              "guides/admin9-tenancy"
             ]
           },
           {
@@ -40,11 +52,19 @@
               "guides/events-and-extension-points",
               "guides/localization-and-theming"
             ]
+          },
+          {
+            "group": "Reference & Release",
+            "pages": [
+              "reference/commands-and-endpoints",
+              "reference/testing-and-quality",
+              "deployment/release-checklist"
+            ]
           }
         ]
       },
       {
-        "tab": "Admin Guide",
+        "tab": "Admin Docs",
         "groups": [
           {
             "group": "Start Here",
@@ -88,24 +108,6 @@
             "pages": [
               "admin-guide/providers-and-integrations",
               "admin-guide/email-providers"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Reference",
-        "groups": [
-          {
-            "group": "Commands & Quality",
-            "pages": [
-              "reference/commands-and-endpoints",
-              "reference/testing-and-quality"
-            ]
-          },
-          {
-            "group": "Release",
-            "pages": [
-              "deployment/release-checklist"
             ]
           }
         ]

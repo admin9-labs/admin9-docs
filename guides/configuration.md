@@ -5,6 +5,15 @@ description: Environment variables, service configuration, and the main toggles 
 
 Start here for the broad configuration picture before tracing a narrower service or subsystem.
 
+## Applies to
+
+This page describes the shared configuration baseline for:
+
+- `admin9`
+- `admin9-tenancy`
+
+When you are working on the multi-tenant variant, interpret this page as the platform-level default and verify which settings can also be overridden per tenant. For that boundary, read [Admin9 Tenancy Supplement](/guides/admin9-tenancy).
+
 ## Core application settings
 
 From `.env.example`:
@@ -18,6 +27,8 @@ APP_TIMEZONE=UTC
 ```
 
 You should treat `APP_URL` as a high-impact setting because it also influences generated URLs and the default OIDC issuer.
+
+For `admin9-tenancy`, also verify whether tenant domains, tenant subdomains, or tenant-specific URL generation add another layer beyond the default `APP_URL`.
 
 ## Database, session, queue, cache
 
@@ -135,6 +146,8 @@ Notable admin settings pages include:
 - Referral settings
 
 Document your deployment process so operators know which settings are expected to be configured through the UI versus `.env`.
+
+For `admin9-tenancy`, also document which settings are platform-global versus tenant-managed.
 
 ## Related reading
 

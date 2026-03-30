@@ -1,9 +1,18 @@
 ---
 title: Installation
-description: Fresh setup instructions for running ADMIN9 from source.
+description: Fresh setup instructions for running the shared Admin9 application stack from source.
 ---
 
 Fresh setups begin here; once the stack is running, the local development guide becomes the better day-to-day reference.
+
+## Applies to
+
+This page is the shared installation baseline for:
+
+- `admin9` as the single-tenant product
+- `admin9-tenancy` as the multi-tenant product
+
+If you are installing the multi-tenant variant, use this page first and then review [Admin9 Tenancy Supplement](/guides/admin9-tenancy) for tenant-specific differences.
 
 ## Requirements
 
@@ -27,6 +36,8 @@ npm install
 cp .env.example .env
 php artisan key:generate
 ```
+
+If you are working from the multi-tenant repository, substitute the corresponding `admin9-tenancy` clone URL and working directory.
 
 ## Configure environment
 

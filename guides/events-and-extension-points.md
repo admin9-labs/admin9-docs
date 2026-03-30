@@ -1,9 +1,9 @@
 ---
 title: Events and Extension Points
-description: Where to hook custom behavior into ADMIN9 using domain events, listeners, and service boundaries.
+description: Where to hook custom behavior into the shared Admin9 stack using domain events, listeners, and service boundaries.
 ---
 
-Customization work should start here if the goal is to extend ADMIN9 cleanly instead of patching core flows inline.
+Customization work should start here if the goal is to extend the shared Admin9 stack cleanly instead of patching core flows inline.
 
 ## Event areas in the codebase
 

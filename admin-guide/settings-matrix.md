@@ -1,9 +1,18 @@
 ---
 title: Settings Matrix
-description: A quick map of the main ADMIN9 admin settings pages and what each one is responsible for.
+description: A quick map of the main Admin9 admin settings pages and what each one is responsible for.
 ---
 
 Think of this page as the ownership table for admin settings when the task is clear but the destination screen is not.
+
+## Applies to
+
+This settings map is shared by:
+
+- `admin9`
+- `admin9-tenancy`
+
+For `admin9-tenancy`, determine whether each settings page is platform-global, tenant-specific, or inherited before handing off ownership.
 
 ## When to use this page
 
@@ -91,6 +100,8 @@ See also: [Referral Settings](/admin-guide/referral-settings)
 2. Confirm no page still contains test or placeholder values.
 3. Verify that each settings page aligns with both `.env` and public-facing behavior.
 4. Record which teammate owns each settings area after launch.
+
+In `admin9-tenancy`, also record whether ownership sits with the platform team or with tenant administrators.
 
 ## Related guides
 

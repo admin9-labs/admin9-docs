@@ -1,9 +1,18 @@
 ---
 title: Payment Providers
-description: Admin-side setup and operational checks for Stripe, Paddle, and Lemon Squeezy in ADMIN9.
+description: Admin-side setup and operational checks for Stripe, Paddle, and Lemon Squeezy in the shared Admin9 stack.
 ---
 
 Use this guide when payment routing, credentials, or provider readiness needs to be checked from the admin side.
+
+## Applies to
+
+This page is shared by:
+
+- `admin9`
+- `admin9-tenancy`
+
+For `admin9-tenancy`, verify whether provider credentials and product mappings are managed globally, per tenant, or in a hybrid model.
 
 ## Supported providers
 

@@ -5,6 +5,15 @@ description: Practical notes on the main cross-cutting features developers are l
 
 This page gives you the cross-cutting platform view before you narrow down into a single feature area.
 
+## Applies to
+
+This feature overview is shared by:
+
+- `admin9`
+- `admin9-tenancy`
+
+Use it as the default baseline, then layer in [Admin9 Tenancy Supplement](/guides/admin9-tenancy) if a feature becomes tenant-aware in the multi-tenant product.
+
 ## Filament panels
 
 ADMIN9 ships two Filament panels:
@@ -18,6 +27,8 @@ The panel providers also define:
 - middleware stacks
 - user menu actions
 - discovered resources, pages, and widgets
+
+In `admin9-tenancy`, also verify whether panel access, panel navigation, and panel data queries are tenant-scoped.
 
 ## Theme switching
 
@@ -79,6 +90,8 @@ Review these layers together when debugging billing:
 - services under `app/Services`
 - webhook controllers
 - transaction and invoice services
+
+For `admin9-tenancy`, verify whether billing ownership lives at platform scope, tenant scope, or both.
 
 ## Content systems
 

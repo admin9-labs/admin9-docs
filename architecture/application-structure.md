@@ -1,9 +1,18 @@
 ---
 title: Application Structure
-description: Directory-level map of the ADMIN9 application and where to extend each concern.
+description: Directory-level map of the shared Admin9 application structure and where to extend each concern.
 ---
 
 When you already know the concern but not the directory, this page is the fastest way to orient yourself inside the codebase.
+
+## Applies to
+
+Use this page as the shared directory map for:
+
+- `admin9`
+- `admin9-tenancy`
+
+In the multi-tenant variant, expect some additional tenant-related directories, models, middleware, or services around the shared structure described here.
 
 ## Top-level directories
 
@@ -129,3 +138,5 @@ Typical touch points:
 ## Guiding rule
 
 If a change includes both orchestration and provider-specific SDK code, keep the orchestration in a service and isolate the provider specifics behind an interface or dedicated implementation.
+
+For `admin9-tenancy`, apply the same rule to tenant-specific infrastructure: keep tenant resolution and tenant scoping explicit instead of scattering tenant checks across unrelated modules.

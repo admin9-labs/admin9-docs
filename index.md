@@ -1,30 +1,39 @@
 ---
-title: ADMIN9 Overview
-description: Developer-focused introduction to the ADMIN9 codebase, platform capabilities, and documentation map.
+title: Admin9 Labs Documentation
+description: Organization-level entry point for Admin9 Labs product docs, product variants, and open source repositories.
 ---
 
-Start here to choose the right documentation path before jumping into setup, architecture, admin operations, or release work.
+Start here to choose the right Admin9 Labs documentation path before jumping into product setup, admin operations, or repository exploration.
 
 ## Pick your path
 
 <CardGroup cols={2}>
-  <Card title="Developer setup" href="/getting-started/installation">
-    Install ADMIN9, run the local stack, and verify the main application surfaces.
+  <Card title="Admin9 variants" href="/products/admin9-variants">
+    Compare the single-tenant `admin9` product with the multi-tenant `admin9-tenancy` variant and see which docs are shared.
   </Card>
-  <Card title="Operator workflows" href="/admin-guide/overview">
-    Use the Admin Guide for launch prep, settings ownership, and day-to-day panel operations.
+  <Card title="Shared product docs" href="/getting-started/installation">
+    Use the Admin9 docs for installation, architecture, guides, admin operations, and release work shared by both variants.
   </Card>
-  <Card title="Release validation" href="/deployment/release-checklist">
-    Run the pre-release checks for configuration, billing, auth, content, and quality gates.
+  <Card title="Tenancy supplement" href="/guides/admin9-tenancy">
+    Read the multi-tenant addendum when tenant scoping, provisioning, or tenant-level operations matter.
   </Card>
   <Card title="Open source portfolio" href="/open-source/overview">
-    See how ADMIN9 relates to the broader Admin9 Labs repositories and reusable packages.
+    Explore the public repositories, starters, and reusable packages maintained by Admin9 Labs.
   </Card>
 </CardGroup>
 
-Use the cards above if you already know your role. If you are evaluating the product itself, continue with the overview below and then branch into the section that matches your workflow.
+## Documentation structure
 
-## What you can do with this codebase
+This site is organized by documentation type:
+
+- product docs for product positioning and variant boundaries
+- usage docs for installation, development, architecture, reference, and release workflows
+- admin docs for operator-facing panel workflows
+- open source docs for public repositories and reusable packages
+
+Within the product docs, `admin9` is the single-tenant variant and `admin9-tenancy` is the multi-tenant variant. Most pages are shared; multi-tenant-only differences are collected in the tenancy supplement.
+
+## What the Admin9 product docs cover
 
 - launch a subscription SaaS with an admin panel and user dashboard
 - manage products, plans, pricing, discounts, invoices, and transactions
@@ -35,17 +44,17 @@ Use the cards above if you already know your role. If you are evaluating the pro
 ## Fast path
 
 <CardGroup cols={2}>
-  <Card title="Install the project" href="/getting-started/installation">
-    Set up ADMIN9 from source with the current Laravel, Livewire, and Filament stack.
+  <Card title="Review variants" href="/products/admin9-variants">
+    Decide whether you are working in the single-tenant or multi-tenant product before applying the shared guides.
+  </Card>
+  <Card title="Install the product" href="/getting-started/installation">
+    Set up the shared Admin9 stack from source with the current Laravel, Livewire, and Filament stack.
   </Card>
   <Card title="Run locally" href="/getting-started/local-development">
     Bring up MySQL, Redis, Vite, queues, and the main application surfaces.
   </Card>
-  <Card title="Understand the architecture" href="/architecture/overview">
-    Learn how the panels, services, events, and provider abstractions fit together.
-  </Card>
-  <Card title="Prepare for release" href="/deployment/release-checklist">
-    Validate configuration, billing flows, auth flows, and release quality gates.
+  <Card title="Read tenancy notes" href="/guides/admin9-tenancy">
+    Apply the multi-tenant differences where tenant boundaries affect architecture or operations.
   </Card>
 </CardGroup>
 
@@ -63,7 +72,7 @@ The current codebase depends on:
 - Laravel Sanctum for API tokens
 - Laravel Horizon for Redis-backed queues
 
-## What ADMIN9 already includes
+## What the shared Admin9 platform includes
 
 - Admin panel at `/admin` for product, content, revenue, and settings management
 - User dashboard at `/dashboard`
@@ -76,17 +85,17 @@ The current codebase depends on:
 - Multi-language frontend routing with localized URLs
 - Theme switching with DaisyUI themes and Filament synchronization
 
-## Read this documentation in order
+## Recommended reading order
 
-1. Start with [Installation](/getting-started/installation) if you need a fresh environment.
-2. Continue with [Local Development](/getting-started/local-development) for daily workflow.
-3. Read [Architecture Overview](/architecture/overview) to understand the main subsystems.
-4. Use [Configuration](/guides/configuration) and [Feature Systems](/guides/feature-systems) when enabling or extending specific capabilities.
+1. Start with [Admin9 Product Variants](/products/admin9-variants) to identify whether you are working on the single-tenant or multi-tenant product.
+2. Continue with [Installation](/getting-started/installation) and [Local Development](/getting-started/local-development).
+3. Read [Architecture Overview](/architecture/overview) and the shared guides.
+4. If you are on `admin9-tenancy`, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) anywhere tenant concerns affect the implementation.
 5. Use [Commands and Endpoints](/reference/commands-and-endpoints) and [Release Checklist](/deployment/release-checklist) before shipping.
 
 If you work primarily in `/admin`, switch to the [Admin Overview](/admin-guide/overview) after the installation flow.
 
-If you are reviewing the open source portfolio rather than deploying ADMIN9 itself, switch to [Open Source Overview](/open-source/overview) instead of continuing through the developer setup path.
+If you are reviewing the public repository portfolio rather than deploying an Admin9 product, switch to [Open Source Overview](/open-source/overview).
 
 ## Core guides
 
@@ -97,4 +106,4 @@ If you are reviewing the open source portfolio rather than deploying ADMIN9 itse
 - [Payment Webhooks and Local Testing](/guides/payment-webhooks-and-local-testing)
 - [Events and Extension Points](/guides/events-and-extension-points)
 
-If prose and product behavior ever disagree, treat the current `admin9` codebase as authoritative.
+If prose and product behavior ever disagree, treat the relevant product repository as authoritative.

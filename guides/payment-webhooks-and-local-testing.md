@@ -1,13 +1,22 @@
 ---
 title: Payment Webhooks and Local Testing
-description: How to test payment webhooks locally in ADMIN9 using Stripe CLI and ngrok-backed workflows.
+description: How to test payment webhooks locally in the shared Admin9 stack using Stripe CLI and ngrok-backed workflows.
 ---
 
 If local billing work depends on provider callbacks, this is the workflow reference you want.
 
+## Applies to
+
+This webhook workflow is shared by:
+
+- `admin9`
+- `admin9-tenancy`
+
+If you are testing `admin9-tenancy`, verify that forwarded callbacks resolve the correct tenant context before treating the local workflow as valid.
+
 ## Current webhook routes
 
-ADMIN9 currently exposes:
+The shared application currently exposes:
 
 - `/api/payments-providers/stripe/webhook`
 - `/api/payments-providers/paddle/webhook`

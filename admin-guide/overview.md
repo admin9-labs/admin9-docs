@@ -1,17 +1,26 @@
 ---
 title: Admin Overview
-description: Operational map of the ADMIN9 admin panel for operators, product managers, and maintainers.
+description: Operational map of the shared Admin9 admin surface for operators, product managers, and maintainers.
 ---
 
 Treat this as the map for `/admin` when you need to place an operational task before diving into a narrower guide.
 
-The ADMIN9 admin panel is mounted at:
+The primary Admin9 admin panel is mounted at:
 
 ```text
 /admin
 ```
 
 This section is written for operators and maintainers who manage the application through Filament rather than through code.
+
+## Applies to
+
+This guide is written as the shared admin baseline for:
+
+- `admin9`
+- `admin9-tenancy`
+
+If you are operating the multi-tenant variant, keep this guide as the default map and verify which responsibilities belong to platform operators versus tenant administrators.
 
 ## When to use this section
 
@@ -51,6 +60,8 @@ The admin panel supports:
 - blog, announcements, FAQs, and roadmap items
 - payment provider, email provider, OAuth provider, and verification provider setup
 - legal, invoice, referral, and Open Graph settings
+
+For `admin9-tenancy`, some of these responsibilities may be split between platform-wide administration and tenant-specific administration.
 
 ## Main navigation groups
 
@@ -129,3 +140,5 @@ The admin guide is grouped by operator workflow rather than by code structure:
 ## Audience boundary
 
 This admin guide explains what operators do in the panel. For implementation details, extension points, and code structure, use the developer sections under Architecture and Guides.
+
+If a workflow depends on tenant scoping, tenant branding, or tenant-level permissions, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) before applying the operational steps directly.

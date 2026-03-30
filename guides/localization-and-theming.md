@@ -1,6 +1,6 @@
 ---
 title: Localization and Theming
-description: How ADMIN9 handles localized URLs, translation support, DaisyUI themes, and Filament theme synchronization.
+description: How the shared Admin9 stack handles localized URLs, translation support, DaisyUI themes, and Filament theme synchronization.
 ---
 
 Locale-aware UI work and theme-related changes both converge here.
@@ -44,7 +44,7 @@ When adding another language:
 
 ## Theme system
 
-The frontend uses DaisyUI theme switching with an ADMIN9 brand palette centered around `#f53003`.
+The frontend uses DaisyUI theme switching with the Admin9 brand palette centered around `#f53003`.
 
 Important characteristics from the codebase and project guidance:
 

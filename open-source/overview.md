@@ -28,7 +28,7 @@ Start here if you need a map of the public repositories before choosing between 
 
 - [`admin9-api`](https://github.com/admin9-labs/admin9-api): Laravel 12 REST API scaffold with JWT auth, RBAC, service-layer structure, audit events, and tests.
 - [`admin9-web`](https://github.com/admin9-labs/admin9-web): Vue-based frontend SPA starter intended to pair with `admin9-api`.
-- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs): Mintlify documentation source for the ADMIN9 documentation site.
+- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs): Mintlify documentation source for the Admin9 Labs documentation site.
 
 ### Laravel packages
 

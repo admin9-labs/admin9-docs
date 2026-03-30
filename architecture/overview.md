@@ -1,9 +1,18 @@
 ---
 title: Architecture Overview
-description: High-level mental model for ADMIN9, including panels, services, events, and user-facing flows.
+description: High-level mental model for the shared Admin9 application architecture, including panels, services, events, and user-facing flows.
 ---
 
 Read this first to get the system shape in view before drilling into modules, routes, or services.
+
+## Applies to
+
+This architecture overview is the shared baseline for both:
+
+- `admin9`
+- `admin9-tenancy`
+
+For the multi-tenant variant, keep this page as the default system map and add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) for tenant-aware boundaries.
 
 ## Runtime surfaces
 
@@ -39,6 +48,10 @@ The user dashboard is registered by `App\Providers\Filament\DashboardPanelProvid
 ```
 
 It contains the customer-facing account area, subscription operations, referrals, balance management, and profile features.
+
+## Tenancy note
+
+In `admin9-tenancy`, these same runtime surfaces may exist behind tenant-aware routing, tenant-scoped data access, and a clearer split between platform-level administration and tenant-level administration.
 
 ## Architectural patterns
 

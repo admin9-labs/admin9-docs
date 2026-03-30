@@ -1,9 +1,18 @@
 ---
 title: Configuration System
-description: How ADMIN9 overrides runtime configuration through the admin panel, database-backed settings, and cached config values.
+description: How the shared Admin9 stack overrides runtime configuration through the admin panel, database-backed settings, and cached config values.
 ---
 
 This is the page to read when a runtime value is unclear and you need to trace whether code, `.env`, or admin settings are winning.
+
+## Applies to
+
+This configuration model is the shared baseline for:
+
+- `admin9`
+- `admin9-tenancy`
+
+In the multi-tenant variant, verify whether the config system remains platform-global or whether selected keys support tenant-level overrides.
 
 At a high level:
 
@@ -85,3 +94,5 @@ For every configurable concern, document whether the source of truth is:
 - or a hybrid bootstrapping model where `.env` seeds the initial value and admin owns changes afterward
 
 Without that clarity, production debugging becomes slow.
+
+For `admin9-tenancy`, add one more rule: document whether each admin-managed setting is global, tenant-scoped, or inherited from a global default.

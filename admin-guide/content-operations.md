@@ -1,9 +1,9 @@
 ---
 title: Content Operations
-description: Operating blog posts, announcements, FAQs, and roadmap content from the ADMIN9 admin panel.
+description: Operating blog posts, announcements, FAQs, and roadmap content from the shared Admin9 admin panel.
 ---
 
-Editorial work in ADMIN9 lives here when the change should be made through `/admin` rather than through a deployment.
+Editorial work in the shared Admin9 stack lives here when the change should be made through `/admin` rather than through a deployment.
 
 ## Content areas in the admin panel
 

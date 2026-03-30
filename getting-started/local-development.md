@@ -5,6 +5,15 @@ description: Daily developer workflow, service expectations, and common environm
 
 After installation, this becomes the working reference for normal local commands, services, and environment expectations.
 
+## Applies to
+
+This page is shared by both product variants. Read it as the default workflow for:
+
+- `admin9`
+- `admin9-tenancy`
+
+If tenant resolution, tenant domains, or tenant-scoped jobs affect your local setup, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) to your reading path.
+
 ## Default Docker Compose topology
 
 The repository ships a `docker-compose.yml` with these services:

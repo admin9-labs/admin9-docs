@@ -1,6 +1,6 @@
 ---
 title: Release Checklist
-description: Pre-release checks for shipping ADMIN9 safely and with complete developer-facing documentation.
+description: Pre-release checks for shipping the shared Admin9 product stack safely and with complete developer-facing documentation.
 ---
 
 Use this checklist as the final developer-facing gate before tagging or deploying a release.
