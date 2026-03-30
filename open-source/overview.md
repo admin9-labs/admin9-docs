@@ -7,13 +7,15 @@ description: Public open source projects maintained by Admin9 Labs and how they 
 
 Admin9 Labs maintains a small but focused set of public repositories around Laravel SaaS infrastructure, OpenID Connect, frontend starters, and developer tooling.
 
-This section gives you a map of the public projects that were visible on the `admin9-labs` GitHub organization as of 2026-03-30.
+This section gives you a stable map of the public projects linked from the `admin9-labs` GitHub organization.
 
 ## How to use this section
 
 - Start here if you want to understand which repositories are products, reusable packages, or support infrastructure.
 - Use [Application Starters](./application-starters.md) if you are evaluating full starter kits or reference apps.
 - Use [Laravel Packages](./laravel-packages.md) if you want reusable packages for auth, OIDC, UI, or API documentation.
+
+This tab is intentionally separate from the main ADMIN9 implementation docs so product documentation and organization discovery do not compete for the same navigation space.
 
 ## Portfolio map
 
@@ -26,7 +28,7 @@ This section gives you a map of the public projects that were visible on the `ad
   </Card>
 </CardGroup>
 
-## Current public repositories
+## Repository map
 
 ### Product and starter repositories
 
@@ -45,12 +47,8 @@ This section gives you a map of the public projects that were visible on the `ad
 
 - [`.github`](https://github.com/admin9-labs/.github): Shared organization profile and GitHub-level metadata.
 
-## Recommended navigation model
+## How this section is intended to work
 
-If this docs site is becoming the canonical documentation hub for the organization, a dedicated `Open Source` tab is the right structure:
-
-- it separates product documentation from organization portfolio content
-- it gives external visitors a direct path to public repositories
-- it avoids mixing package discovery into the ADMIN9 product docs navigation
-
-If later you publish package-specific docs sites, this tab can stay as the portfolio index and link out to each package's canonical documentation.
+- use this tab as the portfolio index for repositories that do not yet need their own standalone documentation site
+- keep product-level ADMIN9 documentation in the main docs tabs so implementation guidance stays separate from organization discovery
+- link out to package-specific or project-specific docs when an individual repository grows beyond overview-level coverage

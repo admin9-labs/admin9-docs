@@ -94,7 +94,8 @@ Provider values currently allowed by the route constraints:
 - `/buy/product/{productSlug}/{quantity?}`
 - `/checkout/product`
 - `/checkout/product/success`
-- `/dashboard/balance/topup`
+- `/dashboard/balance`
+- `POST /dashboard/balance/topup`
 - `/dashboard/balance/topup/success`
 - `/dashboard/balance/topup/cancel`
 

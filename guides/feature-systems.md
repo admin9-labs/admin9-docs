@@ -55,7 +55,7 @@ The application supports:
 - email verification
 - phone verification
 - two-factor authentication
-- OAuth2 / OIDC provider capabilities
+- API token support through Sanctum
 
 Notable route areas:
 
@@ -63,7 +63,8 @@ Notable route areas:
 - `/auth/{provider}/callback`
 - `/email/verify`
 - `/phone/verify`
-- `/oauth/*` through Passport
+
+The current repository snapshot does not expose `/oauth/*` authorization-server routes in the default route list. Do not document OAuth2 / OIDC provider endpoints as shipped behavior unless you verify them in the application you are deploying.
 
 ## Payments and checkout
 

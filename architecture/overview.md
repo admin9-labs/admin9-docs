@@ -104,7 +104,6 @@ Notable abstractions:
 - phone verification
 - social login
 - two-factor authentication
-- OAuth2 / OIDC provider support through Passport
 - roles and permissions through Spatie Permission
 
 ### Content and engagement

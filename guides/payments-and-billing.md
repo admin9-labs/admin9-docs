@@ -66,11 +66,12 @@ Balance management is a first-class concept in the codebase.
 
 Relevant routes:
 
-- `/dashboard/balance/topup`
+- `/dashboard/balance`
+- `POST /dashboard/balance/topup`
 - `/dashboard/balance/topup/success`
 - `/dashboard/balance/topup/cancel`
 
-There is also a dedicated `BalanceTopup` service namespace and a dashboard balance page.
+There is also a dedicated `BalanceTopup` service namespace and a dashboard balance page that hosts the top-up workflow.
 
 ## Webhooks
 

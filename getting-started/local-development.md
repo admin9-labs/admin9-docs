@@ -56,7 +56,7 @@ vendor/bin/pint
 - Queues default to `sync` in `.env.example`, but Horizon support is already installed for Redis-backed workers.
 - Mail defaults to Mailpit.
 - Payment, social login, Twilio, and reCAPTCHA credentials are empty by default and must be explicitly configured before testing those flows.
-- `APP_URL` also feeds `OIDC_ISSUER` by default.
+- `.env.example` includes `OIDC_ISSUER`, but OAuth2 / OIDC provider endpoints should be verified before you rely on that integration path.
 
 ## Recommended local bring-up sequence
 

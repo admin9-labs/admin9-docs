@@ -40,14 +40,11 @@ Use it when your delivery model is:
 ## admin9-docs
 
 - Repository: [`admin9-labs/admin9-docs`](https://github.com/admin9-labs/admin9-docs)
-- Documentation site: [admin9.dev/docs](https://admin9.dev/docs)
 
-This repository is the Mintlify source for the current documentation site. It should remain the source of truth for portfolio-level docs until individual projects outgrow shared documentation.
+This repository is the Mintlify source for the current documentation site. Use it when you need to update shared product documentation, operator runbooks, or the open-source portfolio index.
 
-## Suggested positioning on the docs site
+## Which starter to begin with
 
-For this tab, the starter repos work best as:
-
-- the first content group after the overview
-- the place where new users understand the relationship between API, web, and docs
-- the bridge between the ADMIN9 product and the broader Admin9 Labs open source portfolio
+- start with `admin9-api` if you want a backend-first Laravel foundation
+- start with `admin9-web` if you need a separate SPA frontend to pair with an API backend
+- start with `admin9-docs` if you are improving product docs, admin runbooks, or shared public documentation

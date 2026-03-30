@@ -7,14 +7,33 @@ description: Developer-focused introduction to the ADMIN9 codebase, platform cap
 
 ADMIN9 is a Laravel-based SaaS starter kit for teams that want to ship subscription products without building the standard commercial stack from scratch.
 
-This documentation is written for developers integrating, extending, or preparing the project for production release. It focuses on how the current codebase works, not on marketing copy.
+This documentation is written for developers, operators, and maintainers working from the current codebase. It focuses on implementation, operations, and release readiness rather than marketing copy.
+
+## Pick your path
+
+<CardGroup cols={2}>
+  <Card title="Developer setup" href="/getting-started/installation">
+    Install ADMIN9, run the local stack, and verify the main application surfaces.
+  </Card>
+  <Card title="Operator workflows" href="/admin-guide/overview">
+    Use the Admin Guide for launch prep, settings ownership, and day-to-day panel operations.
+  </Card>
+  <Card title="Release validation" href="/deployment/release-checklist">
+    Run the pre-release checks for configuration, billing, auth, content, and quality gates.
+  </Card>
+  <Card title="Open source portfolio" href="/open-source/overview">
+    See how ADMIN9 relates to the broader Admin9 Labs repositories and reusable packages.
+  </Card>
+</CardGroup>
+
+Use the cards above if you already know your role. If you are evaluating the product itself, continue with the overview below and then branch into the section that matches your workflow.
 
 ## What you can do with this codebase
 
 - launch a subscription SaaS with an admin panel and user dashboard
 - manage products, plans, pricing, discounts, invoices, and transactions
 - support Stripe, Paddle, Lemon Squeezy, or offline payment flows
-- use ADMIN9 as an OAuth2 / OpenID Connect provider for external apps
+- ship authentication, verification, and social login flows for customer-facing products
 - ship localized, themeable frontend pages with built-in operational tooling
 
 ## Fast path
@@ -36,7 +55,7 @@ This documentation is written for developers integrating, extending, or preparin
 
 ## Current stack
 
-The current repository state shows these core runtime dependencies:
+The current codebase depends on:
 
 - PHP 8.2+
 - Laravel 12
@@ -45,9 +64,8 @@ The current repository state shows these core runtime dependencies:
 - Tailwind CSS 4
 - DaisyUI 5
 - Vite 7
-- Laravel Passport for OAuth2 / OIDC provider flows
-- Laravel Horizon for Redis-backed queues
 - Laravel Sanctum for API tokens
+- Laravel Horizon for Redis-backed queues
 
 ## What ADMIN9 already includes
 
@@ -56,7 +74,6 @@ The current repository state shows these core runtime dependencies:
 - Subscription checkout and one-time purchase checkout
 - Stripe, Paddle, Lemon Squeezy, and offline payment flows
 - OAuth social login providers
-- Built-in OAuth2 / OpenID Connect provider capabilities
 - Two-factor authentication
 - Role and permission management
 - Blog, roadmap, announcement, FAQ, and legal page support
@@ -71,6 +88,10 @@ The current repository state shows these core runtime dependencies:
 4. Use [Configuration](./guides/configuration.md) and [Feature Systems](./guides/feature-systems.md) when enabling or extending specific capabilities.
 5. Use [Commands and Endpoints](./reference/commands-and-endpoints.md) and [Release Checklist](./deployment/release-checklist.md) before shipping.
 
+If you work primarily in `/admin`, switch to the [Admin Overview](./admin-guide/overview.md) after the installation flow.
+
+If you are reviewing the open source portfolio rather than deploying ADMIN9 itself, switch to [Open Source Overview](./open-source/overview.md) instead of continuing through the developer setup path.
+
 ## Core guides
 
 - [Authentication and Identity](./guides/authentication-and-identity.md)
@@ -82,7 +103,7 @@ The current repository state shows these core runtime dependencies:
 
 ## Source of truth
 
-For this docs set, the source of truth is:
+For product behavior and version-sensitive details, treat these files in the main `admin9` application repository as the source of truth:
 
 - `admin9/composer.json` for PHP and backend package versions
 - `admin9/package.json` for frontend tooling versions
@@ -90,4 +111,4 @@ For this docs set, the source of truth is:
 - `admin9/app/Providers/Filament/*PanelProvider.php` for panel paths and panel behavior
 - `admin9/.env.example` for documented environment variables
 
-If the repository changes, update the docs from those files first.
+If the repository changes, update the docs from those files first. If prose and code disagree, treat the codebase as authoritative.

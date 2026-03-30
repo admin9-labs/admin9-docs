@@ -11,17 +11,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Developer Docs",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Start Here",
             "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Getting Started",
-            "pages": [
+              "index",
               "getting-started/installation",
               "getting-started/local-development"
             ]
@@ -34,7 +29,7 @@
             ]
           },
           {
-            "group": "Guides",
+            "group": "Core Guides",
             "pages": [
               "guides/configuration",
               "guides/configuration-system",
@@ -101,14 +96,14 @@
         "tab": "Reference",
         "groups": [
           {
-            "group": "Reference",
+            "group": "Commands & Quality",
             "pages": [
               "reference/commands-and-endpoints",
               "reference/testing-and-quality"
             ]
           },
           {
-            "group": "Deployment",
+            "group": "Release",
             "pages": [
               "deployment/release-checklist"
             ]
@@ -119,7 +114,7 @@
         "tab": "Open Source",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Start Here",
             "pages": [
               "open-source/overview"
             ]

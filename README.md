@@ -17,7 +17,7 @@ It is not the ADMIN9 application repository itself.
 
 ## Structure
 
-- `mint.json` - Mintlify configuration
+- `docs.json` - Mintlify configuration
 - `index.md` - docs homepage
 - `getting-started/` - installation and local development
 - `architecture/` - system and codebase structure
@@ -25,8 +25,15 @@ It is not the ADMIN9 application repository itself.
 - `admin-guide/` - admin and operations documentation
 - `reference/` - commands and quality references
 - `deployment/` - release and deployment checklists
+- `open-source/` - portfolio and repository overview pages
 
 ## Local checks
+
+Preview the site locally:
+
+```bash
+mintlify dev
+```
 
 Broken-link validation:
 
@@ -40,12 +47,21 @@ If Mintlify CLI is not installed locally:
 npm install -g mintlify
 ```
 
+If you prefer not to install it globally:
+
+```bash
+npx mintlify dev
+npx mintlify broken-links
+```
+
 ## CI
 
 This repository includes a GitHub Actions workflow that runs Mintlify broken-link checks on:
 
 - pushes to `main`
 - pull requests
+
+It also runs markdown link validation across the repository so broken external links and moved internal references are caught before merge.
 
 ## Relationship to the main product repository
 
@@ -60,8 +76,26 @@ When updating docs, prefer to verify details against:
 - `app/Filament/*`
 - `app/Services/*`
 
+Recommended verification order for fact-sensitive pages:
+
+1. confirm package and framework versions in `composer.json` and `package.json`
+2. confirm user-facing paths in `routes/web.php` and `routes/api.php`
+3. confirm panel paths, navigation groups, and theme assets in `app/Providers/Filament/*PanelProvider.php`
+4. confirm documented environment variables in `.env.example`
+5. confirm service behavior in the relevant files under `app/Services/*`
+
+Pages most likely to drift and should be checked first:
+
+- `getting-started/installation.md`
+- `getting-started/local-development.md`
+- `reference/commands-and-endpoints.md`
+- `guides/authentication-and-identity.md`
+- `guides/payments-and-billing.md`
+- `admin-guide/*` pages that describe Filament settings or provider configuration
+
 ## Maintenance notes
 
 - Documentation content should track the current `admin9` codebase.
 - When product behavior changes, update docs from the codebase rather than from older marketing material or inherited docs.
-- Keep Mintlify navigation in `mint.json` aligned with the actual file structure.
+- Keep Mintlify navigation in `docs.json` aligned with the actual file structure.
+- Keep the homepage, section overview pages, and `README.md` consistent about audience, repo structure, and source-of-truth files.

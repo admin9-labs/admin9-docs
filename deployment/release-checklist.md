@@ -15,7 +15,7 @@ Use this checklist before tagging or deploying a release.
 - Confirm mail provider credentials are valid
 - Confirm payment provider credentials and webhook secrets are configured
 - Confirm social login credentials and callback URLs are correct
-- Confirm `OIDC_ISSUER` is correct for identity-provider use cases
+- If your deployment adds identity-provider features beyond the default route set, confirm any related issuer and authorization-server settings explicitly
 
 ## 2. Validate operational features
 

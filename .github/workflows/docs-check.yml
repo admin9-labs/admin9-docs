@@ -24,3 +24,18 @@ jobs:
 
       - name: Check broken links
         run: mintlify broken-links
+
+  markdown-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check markdown links
+        run: find . -name '*.md' -print0 | xargs -0 npx -y markdown-link-check

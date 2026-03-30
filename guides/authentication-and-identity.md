@@ -1,11 +1,11 @@
 ---
 title: Authentication and Identity
-description: Authentication, social login, two-factor auth, and OAuth2 / OIDC behavior in ADMIN9.
+description: Authentication, social login, verification flows, two-factor auth, and token-related behavior in ADMIN9.
 ---
 
 # Authentication and Identity
 
-ADMIN9 includes several identity-related layers: Laravel session auth, social login, email and phone verification, two-factor authentication, and OAuth2 / OpenID Connect provider capabilities.
+ADMIN9 includes several identity-related layers: Laravel session auth, social login, email and phone verification, two-factor authentication, and Sanctum-based token support.
 
 ## Main auth building blocks
 
@@ -13,7 +13,6 @@ ADMIN9 includes several identity-related layers: Laravel session auth, social lo
 - email verification with `MustVerifyEmail`
 - social login through Laravel Socialite
 - two-factor authentication through `laragear/two-factor`
-- OAuth2 provider flows through Laravel Passport
 - API token support through Sanctum
 
 ## User model capabilities
@@ -69,22 +68,11 @@ Relevant dashboard pages include:
 
 The dashboard panel only exposes the 2FA menu item when `config('app.two_factor_auth_enabled')` is enabled.
 
-## OAuth2 / OpenID Connect provider role
+## OIDC-related configuration note
 
-The project documentation and environment file indicate that ADMIN9 can act as an OAuth2 / OpenID Connect provider.
+The current repository includes an `OIDC_ISSUER` environment variable in `.env.example`, but the default route list does not expose `/oauth/*` authorization-server endpoints and `composer.json` does not directly require `laravel/passport`.
 
-Important points:
-
-- Passport supplies `/oauth/*` endpoints
-- `OIDC_ISSUER` defaults to `APP_URL`
-- PKCE support is part of the intended external client flow
-
-When deploying ADMIN9 as an identity provider:
-
-- ensure `APP_URL` is the public canonical URL
-- ensure `OIDC_ISSUER` is correct
-- validate HTTPS and callback URLs carefully
-- test authorization code and token flows with a real client
+Treat OAuth2 / OpenID Connect provider behavior as something to verify in the specific application deployment before documenting it as a shipped capability.
 
 ## Operational checklist
 
@@ -93,4 +81,4 @@ When deploying ADMIN9 as an identity provider:
 - verify each enabled social provider end-to-end
 - verify 2FA enrollment and recovery codes
 - verify admin access rules separately from dashboard access rules
-- verify OAuth2 client integration if ADMIN9 is serving external apps
+- verify any external identity-provider integration only after confirming the deployed app actually exposes the required endpoints

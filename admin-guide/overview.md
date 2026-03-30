@@ -21,6 +21,23 @@ Use the admin guide when you need to:
 - find the right page for a launch or support workflow
 - separate operator responsibilities from developer implementation details
 
+## Start from your task
+
+<CardGroup cols={2}>
+  <Card title="Prepare a launch" href="/admin-guide/launch-runbook">
+    Review the release-critical checks for billing, content, access, infrastructure, and support readiness.
+  </Card>
+  <Card title="Find the right settings page" href="/admin-guide/settings-matrix">
+    Use the settings map when you know the task belongs in `/admin` but not which page owns it.
+  </Card>
+  <Card title="Manage catalog and billing" href="/admin-guide/products-and-pricing">
+    Jump into products, plans, transactions, providers, invoices, and referral configuration.
+  </Card>
+  <Card title="Handle users and support" href="/admin-guide/support-playbook">
+    Start with the support workflow for live issue triage, access boundaries, and verification problems.
+  </Card>
+</CardGroup>
+
 ## What the admin panel covers
 
 Based on the current Filament resources and pages, the admin panel supports:
