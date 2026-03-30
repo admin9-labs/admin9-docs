@@ -262,7 +262,7 @@
     "image": "/images/icon-high.png"
   },
   "interaction": {
-    "drilldown": true
+    "drilldown": false
   },
   "metadata": {
     "timestamp": true
