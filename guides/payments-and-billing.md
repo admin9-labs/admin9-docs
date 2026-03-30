@@ -9,7 +9,7 @@ ADMIN9 already contains the core building blocks for subscription commerce and o
 
 ## Supported payment providers
 
-The current codebase includes payment provider controllers and environment configuration for:
+The codebase includes payment provider controllers and environment configuration for:
 
 - Stripe
 - Paddle
@@ -75,7 +75,7 @@ There is also a dedicated `BalanceTopup` service namespace and a dashboard balan
 
 ## Webhooks
 
-The current webhook endpoints are:
+The webhook endpoints are:
 
 - `/api/payments-providers/stripe/webhook`
 - `/api/payments-providers/paddle/webhook`

@@ -77,4 +77,4 @@ Before release, make sure the external docs site covers:
 
 ## 7. Call out known mismatches
 
-At the time these docs were generated, older prose files in the main repository still referenced Livewire 3 and Filament 4, while `composer.json` shows Livewire 4 and Filament 5. Resolve those mismatches before publishing public-facing documentation.
+If older prose or internal notes still reference outdated framework versions, resolve those mismatches before publishing public-facing documentation.

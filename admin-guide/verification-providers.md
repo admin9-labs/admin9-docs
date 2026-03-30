@@ -57,4 +57,4 @@ Before launch, operators should decide whether SMS verification is required for:
 2. Send test verification SMS to ensure Twilio accepts the `from` number and message payload.
 3. Verify error handling: force a Twilio failure (invalid token) and confirm the log/notification surface enough detail for support.
 4. Double-check that `ConfigConstants::OVERRIDABLE_CONFIGS` includes the Twilio keys used by the form so they stay editable through the admin UI.
-5. If you plan to skip phone verification for launch, make sure `TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED` matches that choice and is recorded in the launch runbook.
+5. If you plan to skip phone verification for launch, make sure `TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED` matches that choice and note it in the launch runbook.

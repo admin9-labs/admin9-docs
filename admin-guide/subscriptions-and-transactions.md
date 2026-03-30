@@ -51,7 +51,7 @@ It surfaces transaction state, provider data, and amounts. When investigating fa
 
 Admins should:
 
-- use the balances list to monitor current customer credits
+- use the balances list to monitor customer credits
 - use the balance transactions list to investigate manual adjustments, top-ups, or refunds
 - cross-reference transactions with balance history when troubleshooting user-reported credits
 

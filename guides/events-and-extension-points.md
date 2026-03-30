@@ -9,7 +9,7 @@ ADMIN9 already exposes clean extension points through events, listeners, service
 
 If you need to customize behavior, prefer using these existing seams instead of editing core flows inline.
 
-## Event areas in the current codebase
+## Event areas in the codebase
 
 The application has dedicated event directories for:
 
@@ -39,7 +39,7 @@ Bad listener responsibilities:
 
 ## Practical examples
 
-The inherited platform documentation emphasizes event-driven customization around:
+Common event-driven customization points include:
 
 - registration
 - subscription created, renewed, or cancelled
@@ -47,7 +47,7 @@ The inherited platform documentation emphasizes event-driven customization aroun
 - payment failure
 - user verification
 
-That still maps well to ADMIN9's current architecture and is the right mental model when deciding where to extend the product.
+This is a good mental model when deciding where to extend the product.
 
 ## Preferred extension order
 

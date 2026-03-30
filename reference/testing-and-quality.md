@@ -64,7 +64,7 @@ For this codebase, prioritize tests around:
 - authentication and verification flows
 - provider-specific integrations that are enabled for the release
 
-The current repository already contains feature coverage for legal pages, referrals, balance handling, top-up flows, and several core services. Webhook-specific and auth-provider regressions still deserve explicit release testing because they are not the most obvious parts of the visible test suite.
+The visible test suite already covers legal pages, referrals, balance handling, top-up flows, and several core services. Webhook-specific and auth-provider regressions still deserve explicit release testing because they are easier to miss.
 
 ## Release minimum
 

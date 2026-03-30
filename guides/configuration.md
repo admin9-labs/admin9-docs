@@ -105,7 +105,7 @@ TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED=false
 
 ## Analytics and social links
 
-The current environment file includes:
+The environment file includes:
 
 - `GOOGLE_TRACKING_ID`
 - `TRACKING_SCRIPTS`

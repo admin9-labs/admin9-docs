@@ -40,7 +40,7 @@ Use the admin guide when you need to:
 
 ## What the admin panel covers
 
-Based on the current Filament resources and pages, the admin panel supports:
+The admin panel supports:
 
 - revenue monitoring and SaaS metrics
 - product and plan management
@@ -82,7 +82,7 @@ The admin guide is grouped by operator workflow rather than by code structure:
 - `Catalog & Revenue` for products, billing, invoices, and referrals
 - `Users & Access` for roles, login providers, verification, and support triage
 - `Content & Site Operations` for public content, legal copy, branding, and analytics
-- `Integrations` for cross-provider navigation and email delivery setup
+- `Integrations` for provider setup and email delivery configuration
 
 ## Recommended reading order
 
@@ -117,7 +117,7 @@ The admin guide is grouped by operator workflow rather than by code structure:
 
 ### 5. Integrations overview
 
-- [Providers and Integrations](./providers-and-integrations.md) for the cross-provider map
+- [Providers and Integrations](./providers-and-integrations.md) for payment, email, OAuth, and verification setup
 - [Email Providers](./email-providers.md) for mail delivery configuration and validation
 
 ## If you are unsure where to start
