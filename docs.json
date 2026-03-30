@@ -260,5 +260,14 @@
   },
   "background": {
     "image": "/images/icon-high.png"
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "seo": {
+    "indexing": "all"
   }
 }
