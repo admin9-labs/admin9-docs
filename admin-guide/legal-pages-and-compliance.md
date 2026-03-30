@@ -7,7 +7,7 @@ description: Admin instructions for keeping terms, privacy, and compliance-ready
 
 The admin panel includes a dedicated `Legal Pages` settings page where operators can maintain Terms of Service, Privacy Policy, and other compliance content without touching code.
 
-## Where this page lives
+## Access and location
 
 The page is registered as `App\Filament\Admin\Pages\LegalPagesSettings` and is grouped under **Settings** in the admin navigation. Access is gated by the `update settings` permission and by the `ConfigService::isAdminSettingsEnabled()` flag, so confirm both are true before attempting edits.
 
@@ -30,6 +30,4 @@ The page is registered as `App\Filament\Admin\Pages\LegalPagesSettings` and is g
 3. Ensure any new payment providers, OAuth flows, or feature toggles are referenced in the legal copy so published documentation matches functionality.
 4. Confirm the admin user performing the update has the required permission and that `ConfigService::isAdminSettingsEnabled()` is still true in production.
 
-## Release note
-
-Treat this page as part of the launch checklist—the legal content must be finalized before the `Launch Runbook` section marks your release as “go”. Request sign-off from the responsible product or legal stakeholder and record the approved copy version so the team knows what text is live.
+Treat this page as part of the launch checklist. Finalize legal content before go-live, get sign-off from the responsible product or legal stakeholder, and record which approved copy version is live.

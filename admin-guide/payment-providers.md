@@ -9,7 +9,7 @@ ADMIN9 exposes payment provider management through the `Payment Providers` resou
 
 ## Supported providers
 
-The current admin resource set includes dedicated settings pages for:
+The admin resource includes dedicated settings pages for:
 
 - Stripe
 - Paddle
@@ -67,7 +67,7 @@ Before launch, verify for each enabled provider:
 
 ## Webhooks
 
-The current webhook endpoints are:
+The webhook endpoints are:
 
 - `/api/payments-providers/stripe/webhook`
 - `/api/payments-providers/paddle/webhook`

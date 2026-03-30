@@ -9,7 +9,7 @@ This area covers the catalog and billing entities that define what customers can
 
 ## Core resources
 
-The current admin panel includes resources for:
+The admin panel includes resources for:
 
 - Products
 - Plans
@@ -21,7 +21,7 @@ The current admin panel includes resources for:
 - Balances
 - Balance Transactions
 
-## Recommended operating model
+## Operating model
 
 ### Products
 

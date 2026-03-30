@@ -9,7 +9,7 @@ ADMIN9 includes an `Oauth Login Providers` resource for managing social login av
 
 ## Supported providers
 
-The current admin-side provider settings pages cover:
+The admin-side provider settings pages cover:
 
 - Google
 - GitHub
@@ -59,7 +59,5 @@ There are also provider-specific entries in `config/services.php`, including Twi
 - verify successful account creation for first-time users
 - verify successful login for returning users
 - verify email handling when a provider does not return the expected user profile fields
-
-## Operator note
 
 Only enable providers that have been tested end-to-end in the target environment. Social login issues are highly visible during launch and usually caused by callback mismatch or incomplete provider-app setup.

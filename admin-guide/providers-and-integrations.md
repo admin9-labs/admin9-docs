@@ -7,7 +7,7 @@ description: Admin-side setup areas for payment, email, OAuth, and verification 
 
 ADMIN9 exposes several provider systems directly in the admin panel so operators can manage integrations without code changes.
 
-Use this page as the cross-provider map. If you already know which provider family you need, jump to the provider-specific guide linked in each section.
+Use this page as a quick map across payment, email, OAuth, and verification providers. If you already know which provider family you need, jump to the provider-specific guide linked in each section.
 
 ## Payment providers
 
@@ -92,7 +92,7 @@ Keep an internal runbook that documents:
 - who owns credential rotation
 - how webhook changes are tested before production rollout
 
-## Recommended usage order
+## Usage order
 
 1. Use this page to identify the provider family and ownership model.
 2. Open the provider-specific page for field-level setup and validation steps.
