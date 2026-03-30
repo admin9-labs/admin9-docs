@@ -23,7 +23,7 @@ jobs:
         run: npm install -g mintlify
 
       - name: Check broken links
-        run: mintlify broken-links
+        run: npx --yes mintlify broken-links
 
   internal-route-style:
     runs-on: ubuntu-latest
@@ -60,4 +60,4 @@ jobs:
           node-version: 22
 
       - name: Check markdown links
-        run: find . -name '*.md' -print0 | xargs -0 npx -y markdown-link-check
+        run: find . -name '*.md' -print0 | xargs -0 -n 1 npx -y markdown-link-check --config .github/markdown-link-check.json
