@@ -9,75 +9,90 @@
     "dark": "#a82100"
   },
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Introduction",
-        "pages": [
-          "index"
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/installation",
+              "getting-started/local-development"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/application-structure"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/configuration",
+              "guides/configuration-system",
+              "guides/feature-systems",
+              "guides/authentication-and-identity",
+              "guides/payments-and-billing",
+              "guides/payment-webhooks-and-local-testing",
+              "guides/events-and-extension-points",
+              "guides/localization-and-theming"
+            ]
+          }
         ]
       },
       {
-        "group": "Getting Started",
-        "pages": [
-          "getting-started/installation",
-          "getting-started/local-development"
+        "tab": "Admin Guide",
+        "groups": [
+          {
+            "group": "Admin Guide",
+            "pages": [
+              "admin-guide/overview",
+              "admin-guide/products-and-pricing",
+              "admin-guide/subscriptions-and-transactions",
+              "admin-guide/providers-and-integrations",
+              "admin-guide/payment-providers",
+              "admin-guide/email-providers",
+              "admin-guide/oauth-providers",
+              "admin-guide/verification-providers",
+              "admin-guide/invoice-settings",
+              "admin-guide/referral-settings",
+              "admin-guide/users-and-access",
+              "admin-guide/support-playbook",
+              "admin-guide/content-and-site-settings",
+              "admin-guide/content-operations",
+              "admin-guide/legal-pages-and-compliance",
+              "admin-guide/settings-matrix",
+              "admin-guide/general-settings",
+              "admin-guide/analytics-and-open-graph",
+              "admin-guide/launch-runbook"
+            ]
+          }
         ]
       },
       {
-        "group": "Architecture",
-        "pages": [
-          "architecture/overview",
-          "architecture/application-structure"
-        ]
-      },
-      {
-        "group": "Guides",
-        "pages": [
-          "guides/configuration",
-          "guides/configuration-system",
-          "guides/feature-systems",
-          "guides/authentication-and-identity",
-          "guides/payments-and-billing",
-          "guides/payment-webhooks-and-local-testing",
-          "guides/events-and-extension-points",
-          "guides/localization-and-theming"
-        ]
-      },
-      {
-        "group": "Admin Guide",
-        "pages": [
-          "admin-guide/overview",
-          "admin-guide/products-and-pricing",
-          "admin-guide/subscriptions-and-transactions",
-          "admin-guide/providers-and-integrations",
-          "admin-guide/payment-providers",
-          "admin-guide/email-providers",
-          "admin-guide/oauth-providers",
-          "admin-guide/verification-providers",
-          "admin-guide/invoice-settings",
-          "admin-guide/referral-settings",
-          "admin-guide/users-and-access",
-          "admin-guide/support-playbook",
-          "admin-guide/content-and-site-settings",
-          "admin-guide/content-operations",
-          "admin-guide/legal-pages-and-compliance",
-          "admin-guide/settings-matrix",
-          "admin-guide/general-settings",
-          "admin-guide/analytics-and-open-graph",
-          "admin-guide/launch-runbook"
-        ]
-      },
-      {
-        "group": "Reference",
-        "pages": [
-          "reference/commands-and-endpoints",
-          "reference/testing-and-quality"
-        ]
-      },
-      {
-        "group": "Deployment",
-        "pages": [
-          "deployment/release-checklist"
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/commands-and-endpoints",
+              "reference/testing-and-quality"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/release-checklist"
+            ]
+          }
         ]
       }
     ]
