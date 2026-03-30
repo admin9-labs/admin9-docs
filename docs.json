@@ -264,5 +264,43 @@
   },
   "seo": {
     "indexing": "all"
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          {
+            "label": "Features",
+            "href": "https://admin9.dev/#features"
+          },
+          {
+            "label": "Pricing",
+            "href": "https://admin9.dev/#pricing"
+          },
+          {
+            "label": "FAQ",
+            "href": "https://admin9.dev/#faq"
+          }
+        ]
+      },
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "Blog",
+            "href": "https://admin9.dev/blog"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://admin9.dev/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://admin9.dev/terms-of-service"
+          }
+        ]
+      }
+    ]
   }
 }
