@@ -7,7 +7,7 @@ description: Setting up Twilio-based SMS verification and related gating control
 
 ADMIN9 includes a `Verification Providers` resource in the **Settings** navigation group to keep SMS verification and trial gating operational without touching code.
 
-## Twilio as the current provider
+## Twilio provider
 
 The codebase ships with a dedicated Twilio provider implementation (`App\Services\VerificationProviders\TwilioProvider`) that:
 
@@ -57,4 +57,4 @@ Before launch, operators should decide whether SMS verification is required for:
 2. Send test verification SMS to ensure Twilio accepts the `from` number and message payload.
 3. Verify error handling: force a Twilio failure (invalid token) and confirm the log/notification surface enough detail for support.
 4. Double-check that `ConfigConstants::OVERRIDABLE_CONFIGS` includes the Twilio keys used by the form so they stay editable through the admin UI.
-5. If you plan to skip phone verification for launch, make sure the `TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED` flag reflects that decision and is documented in the launch runbook.
+5. If you plan to skip phone verification for launch, make sure `TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED` matches that choice and is recorded in the launch runbook.

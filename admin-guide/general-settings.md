@@ -5,11 +5,11 @@ description: Site-wide admin settings to review before the first public release 
 
 # General Settings
 
-The admin panel includes a `General Settings` page intended for site-wide operational and presentation settings.
+The admin panel includes a `General Settings` page for site-wide operational and presentation settings.
 
-## What this page likely controls
+## What this page controls
 
-Based on the codebase and related settings integrations, this page is the place to review broad application behavior such as:
+Review this page for broad application behavior such as:
 
 - site-level presentation settings
 - registration and login related toggles
@@ -21,7 +21,7 @@ The codebase specifically shows reCAPTCHA controls and references to documentati
 
 ## Release-critical items to review
 
-Before first public release, confirm:
+Before launch, confirm:
 
 - branding and basic site metadata are correct
 - analytics configuration is intentional

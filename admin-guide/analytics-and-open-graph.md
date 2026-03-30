@@ -39,6 +39,4 @@ Before launch:
 - verify homepage and major public pages generate the expected preview
 - verify staging or test branding is not leaking into production content
 
-## Operational recommendation
-
 Include at least one manual social preview review in your release workflow. A technically correct launch can still look unfinished if OG assets or analytics settings are wrong.

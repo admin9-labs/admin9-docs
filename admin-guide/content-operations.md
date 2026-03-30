@@ -9,7 +9,7 @@ ADMIN9 includes several admin-managed content systems that can be used to suppor
 
 ## Content areas in the admin panel
 
-The current admin resources include:
+The admin resources include:
 
 - Blog Posts
 - Blog Post Categories
@@ -17,7 +17,7 @@ The current admin resources include:
 - FAQs
 - Roadmap Items
 
-These resources live alongside site settings and should be treated as part of your release operations, not as optional extras.
+Treat these resources as part of launch and ongoing operations, not as optional extras.
 
 ## Blog
 
@@ -90,7 +90,7 @@ Before launch:
 - remove internal planning notes
 - confirm statuses are meaningful to users
 
-## Recommended ownership
+## Ownership
 
 These resources should usually have a clear owner:
 

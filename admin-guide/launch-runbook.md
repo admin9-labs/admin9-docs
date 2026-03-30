@@ -5,7 +5,7 @@ description: Operator-focused first-release runbook for ADMIN9 before opening th
 
 # Launch Runbook
 
-This runbook is intended for the first public release of ADMIN9.
+This runbook is for the first public release of ADMIN9.
 
 Unlike an upgrade guide, this is a pre-launch operational checklist for a brand-new external release.
 
