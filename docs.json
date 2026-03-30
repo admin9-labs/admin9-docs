@@ -251,12 +251,7 @@
     "dismissible": false
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Get Admin9 Sass",
-        "href": "https://admin9.com/"
-      }
-    ]
+    "links": []
   },
   "background": {
     "image": "/images/icon-high.png"
