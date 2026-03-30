@@ -3,9 +3,7 @@ title: Email Providers
 description: Operator guidance for configuring the Email Providers resource inside the ADMIN9 Filament admin panel.
 ---
 
-# Email Providers
-
-ADMIN9 exposes an `Email Providers` resource under the **Settings** navigation group at `/admin`. Operators never create or delete providers—they configure the five built-in providers and sync their credentials with the ConfigService-backed settings sheet.
+Open this guide when outbound email needs to be enabled, repaired, or validated before a release.
 
 ## Access requirements
 

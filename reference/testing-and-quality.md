@@ -3,9 +3,7 @@ title: Testing and Quality
 description: Test execution, static analysis, formatting, and quality expectations for ADMIN9.
 ---
 
-# Testing and Quality
-
-ADMIN9 already includes the core quality tooling needed before first release and during ongoing development.
+Before merge or release, this page is the fast reference for the checks that keep the codebase healthy.
 
 ## Main commands
 

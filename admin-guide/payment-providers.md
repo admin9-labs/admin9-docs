@@ -3,9 +3,7 @@ title: Payment Providers
 description: Admin-side setup and operational checks for Stripe, Paddle, and Lemon Squeezy in ADMIN9.
 ---
 
-# Payment Providers
-
-ADMIN9 exposes payment provider management through the `Payment Providers` resource in the admin panel.
+Use this guide when payment routing, credentials, or provider readiness needs to be checked from the admin side.
 
 ## Supported providers
 

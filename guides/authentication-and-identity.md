@@ -3,9 +3,7 @@ title: Authentication and Identity
 description: Authentication, social login, verification flows, two-factor auth, and token-related behavior in ADMIN9.
 ---
 
-# Authentication and Identity
-
-ADMIN9 includes several identity-related layers: Laravel session auth, social login, email and phone verification, two-factor authentication, and Sanctum-based token support.
+Authentication changes should start here whenever they touch login, verification, identity state, or token behavior.
 
 ## Main auth building blocks
 

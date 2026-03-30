@@ -3,9 +3,7 @@ title: Analytics and Open Graph
 description: Admin-side guidance for analytics tracking and social preview configuration before launch.
 ---
 
-# Analytics and Open Graph
-
-These settings affect how the product is observed externally and how links appear when shared.
+This guide is for launch and marketing reviews where tracking behavior or link previews need a final check.
 
 ## Analytics
 

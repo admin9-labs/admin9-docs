@@ -3,9 +3,7 @@ title: Application Starters
 description: Public starter repositories and reference applications published by Admin9 Labs.
 ---
 
-# Application Starters
-
-These repositories are the most relevant entry points if you want a clone-and-build starting point instead of an installable package.
+Choose this page when you are looking for a runnable repository, not just a package to install into an existing app.
 
 ## admin9-api
 

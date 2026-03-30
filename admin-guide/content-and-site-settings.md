@@ -3,9 +3,7 @@ title: Content and Site Settings
 description: Overview of editorial, legal, branding, and site-level settings managed from the admin panel.
 ---
 
-# Content and Site Settings
-
-This page is the overview for public-facing content and site presentation work in `/admin`.
+Start here when the task affects what users see on the public site, but you have not yet identified which admin screen owns the change.
 
 Use it when you need to decide which admin area owns:
 

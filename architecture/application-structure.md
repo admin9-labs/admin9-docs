@@ -3,9 +3,7 @@ title: Application Structure
 description: Directory-level map of the ADMIN9 application and where to extend each concern.
 ---
 
-# Application Structure
-
-This page is a practical map of the codebase for developers adding features or debugging production issues.
+When you already know the concern but not the directory, this page is the fastest way to orient yourself inside the codebase.
 
 ## Top-level directories
 

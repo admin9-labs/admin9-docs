@@ -3,9 +3,7 @@ title: Content Operations
 description: Operating blog posts, announcements, FAQs, and roadmap content from the ADMIN9 admin panel.
 ---
 
-# Content Operations
-
-ADMIN9 includes several admin-managed content systems that can be used to support launch messaging, SEO, user communication, and product feedback loops.
+Editorial work in ADMIN9 lives here when the change should be made through `/admin` rather than through a deployment.
 
 ## Content areas in the admin panel
 

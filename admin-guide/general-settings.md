@@ -3,9 +3,7 @@ title: General Settings
 description: Site-wide admin settings to review before the first public release of ADMIN9.
 ---
 
-# General Settings
-
-The admin panel includes a `General Settings` page for site-wide operational and presentation settings.
+Reach for this page when the change is site-wide and does not clearly belong to billing, legal, referral, or content operations.
 
 ## What this page controls
 

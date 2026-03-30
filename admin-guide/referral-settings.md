@@ -3,9 +3,7 @@ title: Referral Settings
 description: How admins configure and validate the referral program ahead of launch.
 ---
 
-# Referral Settings
-
-The admin panel includes a `Referral Settings` page under **Settings** where operators control how the referral program behaves for customers.
+Use this page when the referral program needs launch review, policy changes, or reward tuning.
 
 ## What the page covers
 

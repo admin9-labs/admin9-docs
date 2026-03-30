@@ -3,9 +3,7 @@ title: Payments and Billing
 description: Payment providers, billing flows, checkout routes, and webhook considerations for ADMIN9.
 ---
 
-# Payments and Billing
-
-ADMIN9 already contains the core building blocks for subscription commerce and one-time purchases.
+Checkout and billing code changes should start here before dropping into provider-specific implementation.
 
 ## Supported payment providers
 

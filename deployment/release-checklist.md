@@ -3,9 +3,7 @@ title: Release Checklist
 description: Pre-release checks for shipping ADMIN9 safely and with complete developer-facing documentation.
 ---
 
-# Release Checklist
-
-Use this checklist before tagging or deploying a release.
+Use this checklist as the final developer-facing gate before tagging or deploying a release.
 
 ## 1. Validate environment configuration
 

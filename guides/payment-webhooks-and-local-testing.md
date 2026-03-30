@@ -3,9 +3,7 @@ title: Payment Webhooks and Local Testing
 description: How to test payment webhooks locally in ADMIN9 using Stripe CLI and ngrok-backed workflows.
 ---
 
-# Payment Webhooks and Local Testing
-
-Local webhook testing is essential for billing work in ADMIN9 because provider callbacks drive transaction updates, subscription lifecycle changes, and downstream side effects.
+If local billing work depends on provider callbacks, this is the workflow reference you want.
 
 ## Current webhook routes
 

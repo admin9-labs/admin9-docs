@@ -3,9 +3,7 @@ title: Products and Pricing
 description: How ADMIN9 operators manage products, plans, pricing, discounts, subscriptions, and commerce data from the admin panel.
 ---
 
-# Products and Pricing
-
-This area covers the catalog and billing entities that define what customers can buy.
+Come here to review the catalog and pricing surfaces that shape what customers can purchase.
 
 ## Core resources
 

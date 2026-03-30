@@ -3,11 +3,7 @@ title: Launch Runbook
 description: Operator-focused first-release runbook for ADMIN9 before opening the product to external users.
 ---
 
-# Launch Runbook
-
-This runbook is for the first public release of ADMIN9.
-
-Unlike an upgrade guide, this is a pre-launch operational checklist for a brand-new external release.
+Use this runbook to coordinate the final admin-side checks before opening a new ADMIN9 deployment to external users.
 
 ## When to use this runbook
 

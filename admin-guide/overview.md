@@ -3,9 +3,9 @@ title: Admin Overview
 description: Operational map of the ADMIN9 admin panel for operators, product managers, and maintainers.
 ---
 
-# Admin Overview
+Treat this as the map for `/admin` when you need to place an operational task before diving into a narrower guide.
 
-The ADMIN9 admin panel is the operational control surface for the product. It is mounted at:
+The ADMIN9 admin panel is mounted at:
 
 ```text
 /admin

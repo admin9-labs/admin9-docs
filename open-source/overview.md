@@ -3,11 +3,7 @@ title: Open Source Overview
 description: Public open source projects maintained by Admin9 Labs and how they fit together.
 ---
 
-# Open Source Overview
-
-Admin9 Labs maintains a small but focused set of public repositories around Laravel SaaS infrastructure, OpenID Connect, frontend starters, and developer tooling.
-
-This section gives you a stable map of the public projects linked from the `admin9-labs` GitHub organization.
+Start here if you need a map of the public repositories before choosing between starters, packages, and supporting projects.
 
 ## How to use this section
 

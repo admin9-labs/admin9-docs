@@ -3,9 +3,7 @@ title: Configuration
 description: Environment variables, service configuration, and the main toggles developers need before shipping.
 ---
 
-# Configuration
-
-ADMIN9 exposes most release-critical configuration through `.env`, Laravel config files, and admin-managed settings pages.
+Start here for the broad configuration picture before tracing a narrower service or subsystem.
 
 ## Core application settings
 

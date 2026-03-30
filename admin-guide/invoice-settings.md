@@ -3,9 +3,7 @@ title: Invoice Settings
 description: Admin guidance for controlling invoice generation, seller metadata, and release validation in ADMIN9.
 ---
 
-# Invoice Settings
-
-The `Invoice Settings` page inside `/admin` exposes the controls that determine whether invoices are generated, how invoice numbers are formatted, and what seller metadata appears on every document.
+Invoice readiness checks start here, especially before launch, accounting review, or a payment-provider transition.
 
 ## Access and location
 

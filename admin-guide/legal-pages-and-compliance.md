@@ -3,9 +3,7 @@ title: Legal Pages and Compliance
 description: Admin instructions for keeping terms, privacy, and compliance-ready content up to date before launch.
 ---
 
-# Legal Pages and Compliance
-
-The admin panel includes a dedicated `Legal Pages` settings page where operators can maintain Terms of Service, Privacy Policy, and other compliance content without touching code.
+Keep this page close during launch prep and compliance reviews, since it covers the legal copy operators are expected to maintain.
 
 ## Access and location
 

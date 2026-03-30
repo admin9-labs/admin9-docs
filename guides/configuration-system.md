@@ -3,9 +3,7 @@ title: Configuration System
 description: How ADMIN9 overrides runtime configuration through the admin panel, database-backed settings, and cached config values.
 ---
 
-# Configuration System
-
-ADMIN9 uses a configuration override system layered on top of Laravel's normal config files and environment variables.
+This is the page to read when a runtime value is unclear and you need to trace whether code, `.env`, or admin settings are winning.
 
 At a high level:
 

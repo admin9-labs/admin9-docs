@@ -3,9 +3,7 @@ title: Support Playbook
 description: Operational steps for support staff to triage user, order, subscription, and transaction issues via Filament.
 ---
 
-# Support Playbook
-
-This is a playbook for support and operations teams resolving customer issues through the ADMIN9 Filament admin panel.
+Live support issues should funnel through this playbook whenever a user, order, subscription, or transaction needs triage in `/admin`.
 
 ## Preparation
 

@@ -3,9 +3,7 @@ title: Architecture Overview
 description: High-level mental model for ADMIN9, including panels, services, events, and user-facing flows.
 ---
 
-# Architecture Overview
-
-ADMIN9 is a monolithic Laravel application with a clear service-layer bias and two main Filament surfaces.
+Read this first to get the system shape in view before drilling into modules, routes, or services.
 
 ## Runtime surfaces
 

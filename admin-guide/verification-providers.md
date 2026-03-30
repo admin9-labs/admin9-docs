@@ -3,9 +3,7 @@ title: Verification Providers
 description: Setting up Twilio-based SMS verification and related gating controls from the admin UI before launch.
 ---
 
-# Verification Providers
-
-ADMIN9 includes a `Verification Providers` resource in the **Settings** navigation group to keep SMS verification and trial gating operational without touching code.
+SMS verification setup and release validation both route through this page.
 
 ## Twilio provider
 

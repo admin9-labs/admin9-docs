@@ -3,9 +3,7 @@ title: Subscriptions and Transactions
 description: Admin procedures for monitoring and resolving subscription, order, transaction, and balance data.
 ---
 
-# Subscriptions and Transactions
-
-This page explains how operators use ADMIN9’s Filament resources to monitor subscriptions, orders, transactions, balances, and balance transactions.
+Billing investigations usually start here, especially when you need to reconcile customer activity with what `/admin` shows.
 
 ## Tracking subscription health
 

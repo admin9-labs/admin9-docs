@@ -3,9 +3,7 @@ title: Laravel Packages
 description: Reusable Laravel packages published by Admin9 Labs.
 ---
 
-# Laravel Packages
-
-Admin9 Labs also publishes reusable Laravel packages that can be adopted independently of the full starter repositories.
+This page is the better fit when you want a reusable package from Admin9 Labs rather than a full starter application.
 
 ## Identity and authentication
 

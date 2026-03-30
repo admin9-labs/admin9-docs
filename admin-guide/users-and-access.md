@@ -3,9 +3,7 @@ title: Users and Access
 description: Admin-side responsibilities for users, roles, permissions, and account support workflows.
 ---
 
-# Users and Access
-
-The admin panel includes first-class resources for user administration and access control.
+Use this guide when the task involves account access, role assignment, permission review, or staff-side user support.
 
 ## Core resources
 

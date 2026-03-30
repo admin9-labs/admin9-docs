@@ -3,9 +3,7 @@ title: Localization and Theming
 description: How ADMIN9 handles localized URLs, translation support, DaisyUI themes, and Filament theme synchronization.
 ---
 
-# Localization and Theming
-
-ADMIN9 treats localization and theming as platform-level concerns rather than optional frontend polish.
+Locale-aware UI work and theme-related changes both converge here.
 
 ## Localization model
 

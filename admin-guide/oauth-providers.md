@@ -3,9 +3,7 @@ title: OAuth Providers
 description: Admin-side management of social login providers and release checks for provider callbacks.
 ---
 
-# OAuth Providers
-
-ADMIN9 includes an `Oauth Login Providers` resource for managing social login availability.
+Use this guide when social login needs to be enabled, audited, or repaired from the admin panel side.
 
 ## Supported providers
 

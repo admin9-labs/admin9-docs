@@ -1,13 +1,9 @@
 ---
-title: Overview
+title: ADMIN9 Overview
 description: Developer-focused introduction to the ADMIN9 codebase, platform capabilities, and documentation map.
 ---
 
-# ADMIN9 Overview
-
-ADMIN9 is a Laravel-based SaaS starter kit for teams that want to ship subscription products without building the standard commercial stack from scratch.
-
-This documentation is written for developers, operators, and maintainers working from the current codebase. It focuses on implementation, operations, and release readiness rather than marketing copy.
+Start here to choose the right documentation path before jumping into setup, architecture, admin operations, or release work.
 
 ## Pick your path
 

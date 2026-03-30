@@ -3,9 +3,7 @@ title: Installation
 description: Fresh setup instructions for running ADMIN9 from source.
 ---
 
-# Installation
-
-This guide assumes you are working from the main application repository at `admin9`.
+Fresh setups begin here; once the stack is running, the local development guide becomes the better day-to-day reference.
 
 ## Requirements
 

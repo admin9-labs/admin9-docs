@@ -3,9 +3,7 @@ title: Settings Matrix
 description: A quick map of the main ADMIN9 admin settings pages and what each one is responsible for.
 ---
 
-# Settings Matrix
-
-ADMIN9 exposes several standalone settings pages in the admin panel. This page helps operators find the right screen for each type of change.
+Think of this page as the ownership table for admin settings when the task is clear but the destination screen is not.
 
 ## When to use this page
 

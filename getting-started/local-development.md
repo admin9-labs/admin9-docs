@@ -3,7 +3,7 @@ title: Local Development
 description: Daily developer workflow, service expectations, and common environment tasks.
 ---
 
-# Local Development
+After installation, this becomes the working reference for normal local commands, services, and environment expectations.
 
 ## Default Docker Compose topology
 

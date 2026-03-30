@@ -3,11 +3,7 @@ title: Providers and Integrations
 description: Admin-side setup areas for payment, email, OAuth, and verification providers.
 ---
 
-# Providers and Integrations
-
-ADMIN9 exposes several provider systems directly in the admin panel so operators can manage integrations without code changes.
-
-Use this page as a quick map across payment, email, OAuth, and verification providers. If you already know which provider family you need, jump to the provider-specific guide linked in each section.
+This page is the integration index for `/admin`, helping you route a task to the correct provider family before you get into provider-specific detail.
 
 ## Payment providers
 

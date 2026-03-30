@@ -3,9 +3,7 @@ title: Feature Systems
 description: Practical notes on the main cross-cutting features developers are likely to configure or extend.
 ---
 
-# Feature Systems
-
-This page summarizes the platform features most likely to matter during implementation, integration, or production hardening.
+This page gives you the cross-cutting platform view before you narrow down into a single feature area.
 
 ## Filament panels
 

@@ -3,11 +3,7 @@ title: Events and Extension Points
 description: Where to hook custom behavior into ADMIN9 using domain events, listeners, and service boundaries.
 ---
 
-# Events and Extension Points
-
-ADMIN9 already exposes clean extension points through events, listeners, services, and provider abstractions.
-
-If you need to customize behavior, prefer using these existing seams instead of editing core flows inline.
+Customization work should start here if the goal is to extend ADMIN9 cleanly instead of patching core flows inline.
 
 ## Event areas in the codebase
 
