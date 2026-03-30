@@ -247,9 +247,6 @@
   "appearance": {
     "default": "system"
   },
-  "banner": {
-    "dismissible": false
-  },
   "navbar": {
     "links": []
   },
