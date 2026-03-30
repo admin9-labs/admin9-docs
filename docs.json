@@ -250,9 +250,6 @@
   "navbar": {
     "links": []
   },
-  "background": {
-    "image": "/images/icon-high.png"
-  },
   "interaction": {
     "drilldown": true
   },
