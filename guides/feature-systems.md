@@ -21,8 +21,6 @@ The panel providers also define:
 - user menu actions
 - discovered resources, pages, and widgets
 
-This is the first place to review when changing navigation, access boundaries, or panel-level behavior.
-
 ## Theme switching
 
 The application supports DaisyUI theme switching and synchronizes that theme state with Filament dark mode behavior.
@@ -64,7 +62,7 @@ Notable route areas:
 - `/email/verify`
 - `/phone/verify`
 
-The current repository snapshot does not expose `/oauth/*` authorization-server routes in the default route list. Do not document OAuth2 / OIDC provider endpoints as shipped behavior unless you verify them in the application you are deploying.
+The default route list does not expose `/oauth/*` authorization-server routes. Verify any OAuth2 / OIDC provider behavior in the deployment you are working with before relying on it.
 
 ## Payments and checkout
 

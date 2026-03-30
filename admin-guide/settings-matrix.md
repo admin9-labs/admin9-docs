@@ -5,7 +5,7 @@ description: A quick map of the main ADMIN9 admin settings pages and what each o
 
 # Settings Matrix
 
-ADMIN9 exposes several standalone settings pages in the admin panel. This page maps those screens to their intended responsibility so operators know where to make changes.
+ADMIN9 exposes several standalone settings pages in the admin panel. This page helps operators find the right screen for each type of change.
 
 ## When to use this page
 

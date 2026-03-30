@@ -31,7 +31,7 @@ Adjust the host and port if your app is not running on `localhost:8080`.
 
 ## Paddle and Lemon Squeezy local workflow
 
-The repository already ships a Docker Compose setup with an `ngrok` service. That is the intended way to expose local webhook endpoints for providers that need a public callback URL.
+The repository already ships a Docker Compose setup with an `ngrok` service. Use it to expose local webhook endpoints for providers that need a public callback URL.
 
 Relevant environment variables from `.env.example`:
 

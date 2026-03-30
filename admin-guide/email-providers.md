@@ -25,7 +25,7 @@ The `EmailProviderResource` renders:
 - inline icons pulled from `public/images/email-providers/<slug>.svg`
 - an edit action that opens provider-specific settings pages
 
-The resource explicitly forbids creation and deletion of providers (`canCreate`, `canDelete`, `canDeleteAny` all return `false`), so the list reflects the built-in providers shipped with the application and is intended only for credential management.
+Operators configure the built-in providers here. They do not create or delete provider records from this screen.
 
 ## Provider-specific settings
 
@@ -33,7 +33,7 @@ Each provider has a dedicated Livewire form that writes through `ConfigService::
 
 ### SMTP
 
-`SmtpSettings` exposes the host, port, username, and password fields stored under the `mail.mailers.smtp.*` config keys. These values override whichever SMTP mailer is currently configured in `config/mail.php`, so verify the `mail.default` entry matches the intended provider.
+`SmtpSettings` exposes the host, port, username, and password fields stored under the `mail.mailers.smtp.*` config keys. These values override whichever SMTP mailer is currently configured in `config/mail.php`, so verify that `mail.default` matches the provider you want to use.
 
 ### Mailgun
 
