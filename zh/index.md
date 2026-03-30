@@ -1,9 +1,7 @@
 ---
-title: Admin9 Labs 文档
-description: Admin9 文档。
+title: 概览
+description: 安装、开发、运营与查阅 Admin9。
 ---
-
-Admin9 的中文文档。
 
 ## 目录
 

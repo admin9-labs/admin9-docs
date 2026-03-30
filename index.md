@@ -1,9 +1,7 @@
 ---
-title: Admin9 Labs Documentation
-description: Admin9 documentation.
+title: Overview
+description: Install, develop, operate, and reference Admin9.
 ---
-
-Admin9 documentation lives here.
 
 ## Directory
 
