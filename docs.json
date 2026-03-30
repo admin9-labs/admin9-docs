@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Admin9 Labs Docs",
-  "description": "Documentation for Admin9 Labs products, product variants, and open source repositories.",
+  "name": "Admin9 Docs",
+  "description": "Documentation for Admin9 products, product variants, and open source repositories.",
   "colors": {
     "primary": "#f53003",
     "light": "#ff7a66",
@@ -241,5 +241,24 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs"
+  },
+  "logo": "/images/logo.svg",
+  "favicon": "/images/icon-high.png",
+  "appearance": {
+    "default": "system"
+  },
+  "banner": {
+    "dismissible": false
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Get Admin9 Sass",
+        "href": "https://admin9.com"
+      }
+    ]
+  },
+  "background": {
+    "image": "/images/icon-high.png"
   }
 }
