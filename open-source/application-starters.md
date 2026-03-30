@@ -1,6 +1,6 @@
 ---
 title: Application Starters
-description: Public starter repositories and reference applications published by Admin9 Labs.
+description: Public starter repositories and reference applications.
 ---
 
 Use this page when you need a runnable repository rather than a package.

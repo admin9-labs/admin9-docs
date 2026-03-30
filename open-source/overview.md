@@ -1,6 +1,6 @@
 ---
 title: Open Source Overview
-description: Public open source projects maintained by Admin9 Labs and how they fit together.
+description: Public open source projects and how they fit together.
 ---
 
 This section maps the public repositories across starters and packages.
@@ -22,7 +22,7 @@ This section maps the public repositories across starters and packages.
 
 - [`admin9-api`](https://github.com/admin9-labs/admin9-api): Laravel 12 REST API scaffold with JWT auth, RBAC, service-layer structure, audit events, and tests.
 - [`admin9-web`](https://github.com/admin9-labs/admin9-web): Vue-based frontend SPA starter intended to pair with `admin9-api`.
-- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs): Mintlify documentation source for the Admin9 Labs documentation site.
+- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs): Mintlify documentation source for this site.
 
 ### Laravel packages
 

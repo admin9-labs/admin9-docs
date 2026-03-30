@@ -1,6 +1,6 @@
 ---
 title: 应用 Starter
-description: Admin9 Labs 发布的公开 starter 仓库与参考应用。
+description: 公开 starter 仓库与参考应用。
 ---
 
 要找可直接运行的仓库，就看这页。

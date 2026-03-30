@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Admin9 Docs",
-  "description": "Documentation for Admin9 products, product variants, and open source repositories.",
+  "description": "Documentation for Admin9 and related open source repositories.",
   "colors": {
     "primary": "#f53003",
     "light": "#ff7a66",

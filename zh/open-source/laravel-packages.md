@@ -1,6 +1,6 @@
 ---
 title: Laravel 软件包
-description: 由 Admin9 Labs 发布的可复用 Laravel 软件包。
+description: 可复用 Laravel 软件包。
 ---
 要找可复用软件包，而不是 starter 应用时，看这页。
 

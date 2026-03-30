@@ -1,6 +1,6 @@
 ---
 title: Laravel Packages
-description: Reusable Laravel packages published by Admin9 Labs.
+description: Reusable Laravel packages.
 ---
 
 Use this page when you want a reusable package rather than a full starter application.

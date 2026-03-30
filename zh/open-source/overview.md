@@ -1,6 +1,6 @@
 ---
 title: 开源仓库
-description: Admin9 Labs 维护的公开开源项目。
+description: 公开开源项目与仓库关系。
 ---
 
 这部分整理了公开仓库里的 starters 与 packages。
@@ -22,7 +22,7 @@ description: Admin9 Labs 维护的公开开源项目。
 
 - [`admin9-api`](https://github.com/admin9-labs/admin9-api)：Laravel 12 REST API 脚手架，内置 JWT 认证、RBAC、服务层结构、审计事件与测试。
 - [`admin9-web`](https://github.com/admin9-labs/admin9-web)：基于 Vue 的前端 SPA starter，设计上与 `admin9-api` 搭配使用。
-- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs)：Admin9 Labs 文档站的 Mintlify 文档源码仓库。
+- [`admin9-docs`](https://github.com/admin9-labs/admin9-docs)：当前文档站的 Mintlify 源码仓库。
 
 ### Laravel 包
 

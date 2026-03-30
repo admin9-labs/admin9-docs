@@ -1,6 +1,6 @@
-# Admin9 Labs Docs
+# Admin9 Docs
 
-This repository contains the Mintlify source content for the Admin9 Labs documentation site.
+This repository contains the Mintlify source content for the Admin9 documentation site.
 
 ## Purpose
 
