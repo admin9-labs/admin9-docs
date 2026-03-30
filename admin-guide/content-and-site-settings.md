@@ -1,11 +1,11 @@
 ---
 title: Content and Site Settings
-description: Overview of editorial, legal, branding, and site-level settings managed from the admin panel.
+description: Editorial, legal, branding, and site-level settings managed from the admin panel.
 ---
 
-Start here when the task affects what users see on the public site, but you have not yet identified which admin screen owns the change.
+Use this page when the task affects the public site and you still need to identify the right admin screen.
 
-Use it when you need to decide which admin area owns:
+It helps map ownership across:
 
 - editorial content
 - legal content
@@ -22,8 +22,6 @@ Current content-oriented resources include:
 - FAQs
 - Roadmap Items
 
-Use these to manage public-facing content and customer communication.
-
 ## Site settings pages
 
 The content and site operations area also relies on these standalone settings pages:
@@ -36,19 +34,19 @@ The content and site operations area also relies on these standalone settings pa
 
 ### General Settings
 
-Use this area for broad site-level behavior and presentation settings, including reCAPTCHA, social links, and some analytics-related configuration.
+Broad site-level behavior and presentation settings, including reCAPTCHA, social links, and some analytics-related configuration.
 
 See also: [General Settings](/admin-guide/general-settings)
 
 ### Legal Pages Settings
 
-Use this area to maintain the Terms of Service and Privacy Policy content rendered on public routes.
+Terms of Service and Privacy Policy content rendered on public routes.
 
 See also: [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
 
 ### Open Graph Image Settings
 
-Use this area to maintain share-image defaults or generation-related behavior for SEO and social sharing.
+Share-image defaults and generation-related behavior for SEO and social sharing.
 
 See also: [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)
 
@@ -70,9 +68,9 @@ These topics are adjacent to launch operations, but they are grouped elsewhere i
 - verify Open Graph assets reflect the release brand
 - verify social links, metadata, and analytics settings are production-ready
 
-## Suggested reading inside this group
+## Related guides
 
-1. Read [Content Operations](/admin-guide/content-operations) for blog, announcement, FAQ, and roadmap workflows.
-2. Read [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance) for Terms, Privacy, and release sign-off.
-3. Read [General Settings](/admin-guide/general-settings) for site-wide settings.
-4. Read [Analytics and Open Graph](/admin-guide/analytics-and-open-graph) for tracking and social preview validation.
+1. [Content Operations](/admin-guide/content-operations)
+2. [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
+3. [General Settings](/admin-guide/general-settings)
+4. [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)

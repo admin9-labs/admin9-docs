@@ -1,9 +1,9 @@
 ---
 title: Testing and Quality
-description: Test execution, static analysis, formatting, and quality expectations for the shared Admin9 codebase.
+description: Test execution, static analysis, formatting, and quality expectations for the Admin9 codebase.
 ---
 
-Before merge or release, this page is the fast reference for the checks that keep the codebase healthy.
+Use this page for the checks that keep the codebase healthy before merge or release.
 
 ## Main commands
 

@@ -1,28 +1,19 @@
 ---
 title: 支付 Webhook 与本地测试
-description: 在共享 Admin9 技术栈中，使用 Stripe CLI 与 ngrok 流程进行本地支付 Webhook 测试的方法。
+description: 使用 Stripe CLI 与 ngrok 进行本地支付 Webhook 测试的方法。
 ---
 
-如果你的本地计费调试依赖支付提供商回调，本页就是对应的流程参考。
+如果本地计费调试依赖支付提供商回调，就看这页。
 
-## 适用范围
+## Webhook 路由
 
-本 Webhook 流程适用于：
-
-- `admin9`
-- `admin9-tenancy`
-
-如果你在测试 `admin9-tenancy`，在认定本地流程有效前，先确认转发回调能解析到正确的租户上下文。
-
-## 当前 Webhook 路由
-
-当前共享应用暴露以下端点：
+应用暴露以下端点：
 
 - `/api/payments-providers/stripe/webhook`
 - `/api/payments-providers/paddle/webhook`
 - `/api/payments-providers/lemon-squeezy/webhook`
 
-这些路径属于对发布敏感的集成点。
+这些路径都和正式发布直接相关。
 
 ## Stripe 本地流程
 
@@ -61,7 +52,7 @@ FORWARD_NGROK_PORT=4040
 - 签名校验成功
 - 交易记录正确更新
 - 订阅或订单状态变更被正确持久化
-- 在当前队列配置下，相关副作用仍可正常执行
+- 在现有队列配置下，相关副作用仍可正常执行
 
 ## 常见失败场景
 
@@ -73,7 +64,7 @@ FORWARD_NGROK_PORT=4040
 
 ## 建议测试矩阵
 
-发布前至少模拟：
+至少模拟：
 
 - 结账成功
 - 支付失败
@@ -82,4 +73,4 @@ FORWARD_NGROK_PORT=4040
 
 ## 团队规则
 
-计费相关改动在合并前，必须至少通过当前本地环境回放一次真实或沙箱 webhook。
+计费相关改动在合并前，至少要在本地环境回放一次真实或沙箱 webhook。

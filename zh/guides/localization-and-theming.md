@@ -1,15 +1,15 @@
 ---
 title: 本地化与主题
-description: 共享 Admin9 技术栈如何处理本地化 URL、翻译支持、DaisyUI 主题与 Filament 主题同步。
+description: 本地化 URL、翻译支持、DaisyUI 主题与 Filament 主题同步。
 ---
 
-涉及语言区域的 UI 工作与主题相关改动，都应汇总到本页。
+涉及语言或主题时，先看这页。
 
-## 本地化模型
+## 本地化
 
 应用使用 `mcamara/laravel-localization` 实现基于 URL 的本地化。
 
-当前文档化行为：
+规则：
 
 - 默认语言不显示在 URL 中
 - 非默认语言带前缀
@@ -19,7 +19,7 @@ description: 共享 Admin9 技术栈如何处理本地化 URL、翻译支持、D
 - 默认语言：`/about`
 - 中文语言：`/zh/about`
 
-该行为在内部项目说明 `admin9/docs/i18n-hide-default-locale.md` 中已有记录。
+这条规则也记录在 `admin9/docs/i18n-hide-default-locale.md`。
 
 ## 本地化改动时需检查
 
@@ -29,14 +29,14 @@ description: 共享 Admin9 技术栈如何处理本地化 URL、翻译支持、D
 - session 语言持久化
 - Blade 与 Filament 页面中生成的链接
 
-## 语言覆盖范围
+## 语言
 
-根据项目整体指引，当前应用内置：
+现在内置：
 
 - 英语
 - 简体中文
 
-新增语言时请：
+新增语言时：
 
 - 在本地化配置中启用该 locale
 - 增加翻译资源
@@ -46,13 +46,13 @@ description: 共享 Admin9 技术栈如何处理本地化 URL、翻译支持、D
 
 前端使用 DaisyUI 主题切换，Admin9 品牌色以 `#f53003` 为中心。
 
-结合代码库与项目指引，关键特性如下：
+主要做法：
 
 - 主题状态会在本地持久化
 - 通过 HTML 根节点 `data-theme` 属性切换主题
 - Filament 主题行为与前台主题系统保持同步
 
-## Filament 主题集成
+## Filament 主题
 
 两个面板 Provider 都引用了专用 Vite 主题资源：
 

@@ -1,15 +1,9 @@
 ---
-title: 开源总览
-description: Admin9 Labs 维护的公开开源项目及其相互关系。
+title: 开源仓库
+description: Admin9 Labs 维护的公开开源项目。
 ---
 
-如果你在选择 starter、package 或配套项目前需要先看公开仓库全景，请先阅读本页。
-
-## 如何使用本节
-
-- 若你想先了解哪些仓库属于产品、可复用包或支撑基础设施，从这里开始。
-- 若你在评估完整 starter kit 或参考应用，请看 [Application Starters](/zh/open-source/application-starters)。
-- 若你需要认证、OIDC、UI 或 API 文档相关可复用包，请看 [Laravel Packages](/zh/open-source/laravel-packages)。
+这部分整理了公开仓库里的 starters 与 packages。
 
 ## 项目组合地图
 

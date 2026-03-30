@@ -3,16 +3,7 @@ title: Configuration
 description: Environment variables, service configuration, and the main toggles developers need before shipping.
 ---
 
-Start here for the broad configuration picture before tracing a narrower service or subsystem.
-
-## Applies to
-
-This page describes the shared configuration baseline for:
-
-- `admin9`
-- `admin9-tenancy`
-
-When you are working on the multi-tenant variant, interpret this page as the platform-level default and verify which settings can also be overridden per tenant. For that boundary, read [Admin9 Tenancy Supplement](/guides/admin9-tenancy).
+Start here for the broad configuration picture.
 
 ## Core application settings
 
@@ -26,9 +17,7 @@ APP_URL=http://localhost
 APP_TIMEZONE=UTC
 ```
 
-You should treat `APP_URL` as a high-impact setting because it also influences generated URLs and the default OIDC issuer.
-
-For `admin9-tenancy`, also verify whether tenant domains, tenant subdomains, or tenant-specific URL generation add another layer beyond the default `APP_URL`.
+`APP_URL` is high-impact because it also affects generated URLs and the default OIDC issuer.
 
 ## Database, session, queue, cache
 
@@ -64,11 +53,11 @@ Available environment slots include:
 - `FACEBOOK_CLIENT_ID`
 - `FACEBOOK_CLIENT_SECRET`
 
-The default database seeder also initializes OAuth login provider records.
+The database seeder also initializes OAuth login provider records.
 
 ## Payments
 
-Configured provider variable groups currently include:
+Provider variable groups include:
 
 - Stripe
 - Paddle
@@ -120,7 +109,7 @@ The environment file includes:
 - `TRACKING_SCRIPTS`
 - social profile URLs for Facebook, X, Instagram, LinkedIn, YouTube, GitHub, and Discord
 
-## Important config files to review before release
+## Important Config Files
 
 - `config/app.php`
 - `config/auth.php`
@@ -145,9 +134,7 @@ Notable admin settings pages include:
 - Open Graph image settings
 - Referral settings
 
-Document your deployment process so operators know which settings are expected to be configured through the UI versus `.env`.
-
-For `admin9-tenancy`, also document which settings are platform-global versus tenant-managed.
+Document your deployment process so operators know which settings should be configured through the UI versus `.env`.
 
 ## Related reading
 

@@ -3,7 +3,7 @@ title: Application Starters
 description: Public starter repositories and reference applications published by Admin9 Labs.
 ---
 
-Choose this page when you are looking for a runnable repository, not just a package to install into an existing app.
+Use this page when you need a runnable repository rather than a package.
 
 ## admin9-api
 
@@ -33,7 +33,7 @@ Use it when your delivery model is:
 
 - API backend plus SPA frontend
 - independent frontend deployment
-- shared auth and API contracts across multiple clients
+- auth and API contracts across multiple clients
 
 ## admin9-docs
 
@@ -45,4 +45,4 @@ This repository is the Mintlify source for the current documentation site. Use i
 
 - start with `admin9-api` if you want a backend-first Laravel foundation
 - start with `admin9-web` if you need a separate SPA frontend to pair with an API backend
-- start with `admin9-docs` if you are improving product docs, admin runbooks, or shared public documentation
+- start with `admin9-docs` if you are improving product docs, admin runbooks, or public documentation

@@ -1,10 +1,10 @@
 ---
 title: 发票设置
-description: Admin9 中用于控制发票生成、卖方元数据与发布校验的管理指南。
+description: 控制发票生成、卖方元数据与发布校验。
 ---
-发票就绪性检查从本页开始，尤其适用于发布前、财务复核或支付提供商切换期间。
+检查发票设置时，看这页。
 
-## 访问与位置
+## 页面位置
 
 该页面实现为 `App\Filament\Admin\Pages\InvoiceSettings`，位于 **Settings** 导航分组下。访问要求：
 
@@ -17,7 +17,7 @@ description: Admin9 中用于控制发票生成、卖方元数据与发布校验
 
 `App\Livewire\Filament\InvoiceSettings` 中的 Livewire 表单通过 `ConfigService::set` 写入配置，因此变更会立即持久化，并用于运行时缓存。
 
-你主要操作的字段：
+常用字段：
 
 - `Enable invoice generation`（开关）：开启后，系统会为每笔成功交易生成发票，并可通过 `/invoice/preview` 与 `/invoice/generate/{transactionUuid}` 访问。
 - `Invoice number prefix`：定义 `invoices.serial_number.series`（默认 `INV`），作为每个发票编号的前缀。
@@ -30,7 +30,7 @@ description: Admin9 中用于控制发票生成、卖方元数据与发布校验
 
 这些值存储在 `invoices.seller.attributes.*` 下，发票服务（`App\Services\InvoiceService`）在通过 `LaravelDaily\Invoices` 生成 PDF 或 HTML 发票时会读取并渲染这些字段。
 
-## 预览流程
+## 预览
 
 设置页面内置预览动作，会携带当前表单值打开 `/invoice/preview`。在提交变更前，使用它校验布局、语言区域和元数据是否正确。
 

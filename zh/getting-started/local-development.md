@@ -3,20 +3,11 @@ title: 本地开发
 description: 日常开发流程、服务要求与常见环境任务。
 ---
 
-安装完成后，本页将作为你日常本地命令、服务与环境预期的工作参考。
+安装完成后，日常开发主要看这页。
 
-## 适用范围
+## Docker Compose
 
-本页由两个产品变体共享，可作为默认工作流：
-
-- `admin9`
-- `admin9-tenancy`
-
-如果租户解析、租户域名或租户作用域任务影响你的本地环境，请补读 [Admin9 多租户补充说明](/zh/guides/admin9-tenancy)。
-
-## 默认 Docker Compose 拓扑
-
-仓库内置的 `docker-compose.yml` 包含以下服务：
+`docker-compose.yml` 包含以下服务：
 
 - `laravel.test`
 - `mysql`
@@ -24,7 +15,7 @@ description: 日常开发流程、服务要求与常见环境任务。
 - `redis`
 - `ngrok`
 
-`.env.example` 中相关端口映射：
+相关端口映射：
 
 - App: `APP_PORT=8080`
 - Vite: `VITE_PORT=5173`
@@ -60,11 +51,11 @@ vendor/bin/phpstan analyse
 vendor/bin/pint
 ```
 
-## 当前代码库的开发前提
+## 开发前提
 
-- `.env.example` 中队列默认是 `sync`，但已经安装了可用于 Redis worker 的 Horizon。
+- `.env.example` 中队列默认是 `sync`，但已经安装了 Horizon，可用于 Redis worker。
 - 邮件默认使用 Mailpit。
-- 支付、社交登录、Twilio 与 reCAPTCHA 凭据默认均为空，测试这些流程前需显式配置。
+- 支付、社交登录、Twilio 与 reCAPTCHA 凭据默认都为空，测试前要手动配置。
 - `.env.example` 包含 `OIDC_ISSUER`，但在依赖 OAuth2 / OIDC 集成前应先确认服务端端点可用。
 
 ## 推荐本地启动顺序

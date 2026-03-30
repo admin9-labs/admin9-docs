@@ -1,18 +1,9 @@
 ---
 title: General Settings
-description: Site-wide admin settings to review before the first public release of the shared Admin9 product stack.
+description: Site-wide admin settings to review before the first public release.
 ---
 
 Reach for this page when the change is site-wide and does not clearly belong to billing, legal, referral, or content operations.
-
-## Applies to
-
-This page is the shared baseline for:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, verify whether each setting is truly platform-wide or whether tenants can override branding, tracking, login, or public metadata.
 
 ## What this page controls
 

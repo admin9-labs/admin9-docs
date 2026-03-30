@@ -3,16 +3,7 @@ title: Feature Systems
 description: Practical notes on the main cross-cutting features developers are likely to configure or extend.
 ---
 
-This page gives you the cross-cutting platform view before you narrow down into a single feature area.
-
-## Applies to
-
-This feature overview is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-Use it as the default baseline, then layer in [Admin9 Tenancy Supplement](/guides/admin9-tenancy) if a feature becomes tenant-aware in the multi-tenant product.
+Read this before narrowing down into a single feature area.
 
 ## Filament panels
 
@@ -27,8 +18,6 @@ The panel providers also define:
 - middleware stacks
 - user menu actions
 - discovered resources, pages, and widgets
-
-In `admin9-tenancy`, also verify whether panel access, panel navigation, and panel data queries are tenant-scoped.
 
 ## Theme switching
 
@@ -46,12 +35,12 @@ When making frontend changes, keep the public site and Filament styling behavior
 
 Localization is powered by `mcamara/laravel-localization`.
 
-Expected routing behavior:
+Routing rules:
 
 - default locale hidden in URLs
 - non-default locales prefixed, for example `/zh/about`
 
-There is already an internal note in the main project docs about hiding the default locale in URLs. If this behavior regresses, inspect `config/laravellocalization.php` first.
+If this behavior regresses, inspect `config/laravellocalization.php` first.
 
 ## Authentication and verification
 
@@ -90,8 +79,6 @@ Review these layers together when debugging billing:
 - services under `app/Services`
 - webhook controllers
 - transaction and invoice services
-
-For `admin9-tenancy`, verify whether billing ownership lives at platform scope, tenant scope, or both.
 
 ## Content systems
 

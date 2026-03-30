@@ -21,10 +21,8 @@
                 "group": "Overview & Setup",
                 "pages": [
                   "index",
-                  "products/admin9-variants",
                   "getting-started/installation",
-                  "getting-started/local-development",
-                  "guides/admin9-tenancy"
+                  "getting-started/local-development"
                 ]
               },
               {
@@ -136,10 +134,8 @@
                 "group": "概览与安装",
                 "pages": [
                   "zh/index",
-                  "zh/products/admin9-variants",
                   "zh/getting-started/installation",
-                  "zh/getting-started/local-development",
-                  "zh/guides/admin9-tenancy"
+                  "zh/getting-started/local-development"
                 ]
               },
               {

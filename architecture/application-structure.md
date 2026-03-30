@@ -1,18 +1,9 @@
 ---
 title: Application Structure
-description: Directory-level map of the shared Admin9 application structure and where to extend each concern.
+description: Directory-level map of the Admin9 application structure and where to extend each concern.
 ---
 
-When you already know the concern but not the directory, this page is the fastest way to orient yourself inside the codebase.
-
-## Applies to
-
-Use this page as the shared directory map for:
-
-- `admin9`
-- `admin9-tenancy`
-
-In the multi-tenant variant, expect some additional tenant-related directories, models, middleware, or services around the shared structure described here.
+Use this page when you already know the concern but not the directory.
 
 ## Top-level directories
 
@@ -38,7 +29,7 @@ The main application namespace.
 - `Policies/` authorization policies
 - `Providers/` service providers and panel providers
 - `Services/` business logic
-- `Support/` shared support helpers
+- `Support/` support helpers
 - `Validator/` custom validation logic
 - `View/Components/` Blade view components
 
@@ -67,9 +58,9 @@ Operational configuration for:
 
 ### `database/seeders/`
 
-Contains both baseline seeders and special-purpose seeders:
+Contains both default seeders and special-purpose seeders:
 
-- production-safe baseline seeders in the root
+- production-safe seeders in the root
 - demo seeders under `Demo/`
 - testing seeders under `Testing/`
 
@@ -138,5 +129,3 @@ Typical touch points:
 ## Guiding rule
 
 If a change includes both orchestration and provider-specific SDK code, keep the orchestration in a service and isolate the provider specifics behind an interface or dedicated implementation.
-
-For `admin9-tenancy`, apply the same rule to tenant-specific infrastructure: keep tenant resolution and tenant scoping explicit instead of scattering tenant checks across unrelated modules.

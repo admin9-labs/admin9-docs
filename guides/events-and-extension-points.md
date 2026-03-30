@@ -1,9 +1,9 @@
 ---
 title: Events and Extension Points
-description: Where to hook custom behavior into the shared Admin9 stack using domain events, listeners, and service boundaries.
+description: Where to hook custom behavior into Admin9 using domain events, listeners, and service boundaries.
 ---
 
-Customization work should start here if the goal is to extend the shared Admin9 stack cleanly instead of patching core flows inline.
+Use this page to extend Admin9 cleanly instead of patching core flows inline.
 
 ## Event areas in the codebase
 
@@ -42,8 +42,6 @@ Common event-driven customization points include:
 - order completion
 - payment failure
 - user verification
-
-This is a good mental model when deciding where to extend the product.
 
 ## Preferred extension order
 

@@ -1,20 +1,11 @@
 ---
-title: Architecture Overview
-description: High-level mental model for the shared Admin9 application architecture, including panels, services, events, and user-facing flows.
+title: Architecture
+description: Admin9 architecture, including panels, services, events, and user-facing flows.
 ---
 
-Read this first to get the system shape in view before drilling into modules, routes, or services.
+Read this before drilling into modules.
 
-## Applies to
-
-This architecture overview is the shared baseline for both:
-
-- `admin9`
-- `admin9-tenancy`
-
-For the multi-tenant variant, keep this page as the default system map and add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) for tenant-aware boundaries.
-
-## Runtime surfaces
+## Runtime Surfaces
 
 ### Public web application
 
@@ -27,7 +18,7 @@ The web layer provides:
 - blog and roadmap pages
 - invoice generation and preview
 
-These routes are defined primarily in `routes/web.php`.
+These routes are defined mainly in `routes/web.php`.
 
 ### Admin panel
 
@@ -37,7 +28,7 @@ The admin panel is registered by `App\Providers\Filament\AdminPanelProvider` and
 /admin
 ```
 
-It is the operational surface for revenue, product, user, content, roadmap, and settings management.
+It handles revenue, product, user, content, roadmap, and settings management.
 
 ### User dashboard
 
@@ -49,11 +40,7 @@ The user dashboard is registered by `App\Providers\Filament\DashboardPanelProvid
 
 It contains the customer-facing account area, subscription operations, referrals, balance management, and profile features.
 
-## Tenancy note
-
-In `admin9-tenancy`, these same runtime surfaces may exist behind tenant-aware routing, tenant-scoped data access, and a clearer split between platform-level administration and tenant-level administration.
-
-## Architectural patterns
+## Structure
 
 ### Service layer
 
@@ -75,7 +62,7 @@ Key examples:
 
 Domain events are grouped by concern under `app/Events`, with listeners under `app/Listeners`.
 
-Current event areas include:
+Event areas include:
 
 - balance
 - order
@@ -97,7 +84,7 @@ Notable abstractions:
 - `VerificationProviderInterface`
 - `BalanceTopupProviderInterface`
 
-## Main platform capabilities
+## Modules
 
 ### Commerce
 

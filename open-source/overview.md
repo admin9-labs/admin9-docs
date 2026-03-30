@@ -3,13 +3,7 @@ title: Open Source Overview
 description: Public open source projects maintained by Admin9 Labs and how they fit together.
 ---
 
-Start here if you need a map of the public repositories before choosing between starters, packages, and supporting projects.
-
-## How to use this section
-
-- Start here if you want to understand which repositories are products, reusable packages, or support infrastructure.
-- Use [Application Starters](/open-source/application-starters) if you are evaluating full starter kits or reference apps.
-- Use [Laravel Packages](/open-source/laravel-packages) if you want reusable packages for auth, OIDC, UI, or API documentation.
+This section maps the public repositories across starters and packages.
 
 ## Portfolio map
 

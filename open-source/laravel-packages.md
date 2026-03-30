@@ -3,7 +3,7 @@ title: Laravel Packages
 description: Reusable Laravel packages published by Admin9 Labs.
 ---
 
-This page is the better fit when you want a reusable package from Admin9 Labs rather than a full starter application.
+Use this page when you want a reusable package rather than a full starter application.
 
 ## Identity and authentication
 
@@ -13,7 +13,7 @@ This page is the better fit when you want a reusable package from Admin9 Labs ra
 - Primary language: PHP
 - License: MIT
 
-This package implements an OpenID Connect client for Laravel with Authorization Code Flow and PKCE. It is the fit when your Laravel application needs to authenticate against an external identity provider with standard OIDC flows.
+This package implements an OpenID Connect client for Laravel with Authorization Code Flow and PKCE. Use it when your Laravel application needs to authenticate against an external identity provider with standard OIDC flows.
 
 ### laravel-oidc-server
 

@@ -3,7 +3,7 @@ title: Analytics and Open Graph
 description: Admin-side guidance for analytics tracking and social preview configuration before launch.
 ---
 
-This guide is for launch and marketing reviews where tracking behavior or link previews need a final check.
+Use this page during launch and marketing reviews when tracking behavior or link previews need a final check.
 
 ## Analytics
 
@@ -24,7 +24,7 @@ Analytics errors are easy to miss during development, so treat this as an explic
 
 ADMIN9 includes an `Open Graph Image Settings` page and an Open Graph-related configuration file.
 
-This area is responsible for how shared links render on:
+This area controls how links render on:
 
 - X
 - Facebook

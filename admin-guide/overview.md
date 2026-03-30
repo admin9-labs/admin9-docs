@@ -1,9 +1,9 @@
 ---
 title: Admin Overview
-description: Operational map of the shared Admin9 admin surface for operators, product managers, and maintainers.
+description: Admin pages and common operator tasks.
 ---
 
-Treat this as the map for `/admin` when you need to place an operational task before diving into a narrower guide.
+Read this before diving into a narrower admin guide.
 
 The primary Admin9 admin panel is mounted at:
 
@@ -11,24 +11,7 @@ The primary Admin9 admin panel is mounted at:
 /admin
 ```
 
-This section is written for operators and maintainers who manage the application through Filament rather than through code.
-
-## Applies to
-
-This guide is written as the shared admin baseline for:
-
-- `admin9`
-- `admin9-tenancy`
-
-If you are operating the multi-tenant variant, keep this guide as the default map and verify which responsibilities belong to platform operators versus tenant administrators.
-
-## When to use this section
-
-Use the admin guide when you need to:
-
-- understand which operational tasks happen in `/admin`
-- find the right page for a launch or support workflow
-- separate operator responsibilities from developer implementation details
+This section is for operators and maintainers who manage the application through Filament rather than through code.
 
 ## Start from your task
 
@@ -47,9 +30,7 @@ Use the admin guide when you need to:
   </Card>
 </CardGroup>
 
-## What the admin panel covers
-
-The admin panel supports:
+## Common Areas
 
 - revenue monitoring and SaaS metrics
 - product and plan management
@@ -61,11 +42,7 @@ The admin panel supports:
 - payment provider, email provider, OAuth provider, and verification provider setup
 - legal, invoice, referral, and Open Graph settings
 
-For `admin9-tenancy`, some of these responsibilities may be split between platform-wide administration and tenant-specific administration.
-
-## Main navigation groups
-
-The panel provider defines these top-level groups:
+## Navigation Groups
 
 - Revenue
 - Product Management
@@ -74,9 +51,7 @@ The panel provider defines these top-level groups:
 - Roadmap
 - Settings
 
-## Related admin pages
-
-The admin panel also includes several standalone settings pages:
+## Other Pages
 
 - Dashboard
 - General Settings
@@ -85,28 +60,18 @@ The admin panel also includes several standalone settings pages:
 - Open Graph Image Settings
 - Referral Settings
 
-## How this guide is organized
-
-The admin guide is grouped by operator workflow rather than by code structure:
-
-- `Start Here` for orientation, launch preparation, and settings discovery
-- `Catalog & Revenue` for products, billing, invoices, and referrals
-- `Users & Access` for roles, login providers, verification, and support triage
-- `Content & Site Operations` for public content, legal copy, branding, and analytics
-- `Integrations` for provider setup and email delivery configuration
-
-## Recommended reading order
+## Reading Order
 
 ### 1. Start Here
 
-- [Overview](/admin-guide/overview) for the operating map of the admin panel
+- [Overview](/admin-guide/overview) for the admin panel
 - [Launch Runbook](/admin-guide/launch-runbook) for first-release preparation
-- [Settings Matrix](/admin-guide/settings-matrix) for a quick map of standalone settings pages
+- [Settings Matrix](/admin-guide/settings-matrix) for standalone settings pages
 
 ### 2. Catalog and revenue operations
 
 - [Products and Pricing](/admin-guide/products-and-pricing) for catalog, plans, discounts, and billing entities
-- [Subscriptions and Transactions](/admin-guide/subscriptions-and-transactions) for day-to-day billing operations and audit trails
+- [Subscriptions and Transactions](/admin-guide/subscriptions-and-transactions) for billing operations and audit trails
 - [Payment Providers](/admin-guide/payment-providers) for Stripe, Paddle, and Lemon Squeezy setup
 - [Invoice Settings](/admin-guide/invoice-settings) for invoice generation and seller metadata
 - [Referral Settings](/admin-guide/referral-settings) if referrals are part of the commercial launch
@@ -126,7 +91,7 @@ The admin guide is grouped by operator workflow rather than by code structure:
 - [General Settings](/admin-guide/general-settings) for site-wide behavior, analytics, social links, and reCAPTCHA
 - [Analytics and Open Graph](/admin-guide/analytics-and-open-graph) for tracking and social preview validation
 
-### 5. Integrations overview
+### 5. Integrations
 
 - [Providers and Integrations](/admin-guide/providers-and-integrations) for payment, email, OAuth, and verification setup
 - [Email Providers](/admin-guide/email-providers) for mail delivery configuration and validation
@@ -137,8 +102,4 @@ The admin guide is grouped by operator workflow rather than by code structure:
 - start with [Support Playbook](/admin-guide/support-playbook) if you are handling a live customer issue
 - start with [Settings Matrix](/admin-guide/settings-matrix) if you know the task is in a settings page but not which one
 
-## Audience boundary
-
-This admin guide explains what operators do in the panel. For implementation details, extension points, and code structure, use the developer sections under Architecture and Guides.
-
-If a workflow depends on tenant scoping, tenant branding, or tenant-level permissions, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) before applying the operational steps directly.
+For implementation details, extension points, and code structure, use the developer sections under Architecture and Guides.

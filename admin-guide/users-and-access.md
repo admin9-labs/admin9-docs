@@ -5,15 +5,6 @@ description: Admin-side responsibilities for users, roles, permissions, and acco
 
 Use this guide when the task involves account access, role assignment, permission review, or staff-side user support.
 
-## Applies to
-
-This guide is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, verify whether user roles are global, tenant-scoped, or a mix of both before applying any access rule broadly.
-
 ## Core resources
 
 - Users
@@ -61,5 +52,3 @@ Do not assume customer access and operator access are interchangeable. Verify ro
 - verify permissions align with operational duties
 - verify 2FA expectations for staff accounts
 - verify support staff can inspect billing data without unnecessary destructive access
-
-For `admin9-tenancy`, also verify tenant membership, tenant switching behavior, and whether support staff can cross tenant boundaries only when intended.

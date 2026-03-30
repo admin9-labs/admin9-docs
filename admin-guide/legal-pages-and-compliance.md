@@ -3,7 +3,7 @@ title: Legal Pages and Compliance
 description: Admin instructions for keeping terms, privacy, and compliance-ready content up to date before launch.
 ---
 
-Keep this page close during launch prep and compliance reviews, since it covers the legal copy operators are expected to maintain.
+Use this page during launch prep and compliance reviews.
 
 ## Access and location
 
@@ -28,4 +28,4 @@ The page is registered as `App\Filament\Admin\Pages\LegalPagesSettings` and is g
 3. Ensure any new payment providers, OAuth flows, or feature toggles are referenced in the legal copy so published documentation matches functionality.
 4. Confirm the admin user performing the update has the required permission and that `ConfigService::isAdminSettingsEnabled()` is still true in production.
 
-Treat this page as part of the launch checklist. Finalize legal content before go-live, get sign-off from the responsible product or legal stakeholder, and record which approved copy version is live.
+Finalize legal content before go-live, get sign-off from the responsible product or legal stakeholder, and record which approved copy version is live.

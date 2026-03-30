@@ -63,7 +63,7 @@ Each settings form runs simple `TextInput` fields and calls `ConfigService::set(
 
 `ConfigService::set` checks `ConfigConstants::OVERRIDABLE_CONFIGS` before saving to `App\Models\Config` and caching the new value (`cache()->forever`). Sensitive secrets are encrypted; the same service uses `ConfigConstants::ENCRYPTED_CONFIGS` when reading and writing to preserve confidentiality.
 
-Because the service writes to the cache as well as the DB, operators do not need to restart the application after updating provider credentials, but confirm that the value appears in the Filament UI and in `config('services.<provider>')` before relying on it.
+Because the service writes to the cache as well as the DB, operators do not need to restart the application after updating provider credentials. Confirm that the value appears in the Filament UI and in `config('services.<provider>')` before relying on it.
 
 ## Operational checklist
 

@@ -3,24 +3,7 @@ title: Settings Matrix
 description: A quick map of the main Admin9 admin settings pages and what each one is responsible for.
 ---
 
-Think of this page as the ownership table for admin settings when the task is clear but the destination screen is not.
-
-## Applies to
-
-This settings map is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, determine whether each settings page is platform-global, tenant-specific, or inherited before handing off ownership.
-
-## When to use this page
-
-Use this page when:
-
-- you know the change belongs to a settings screen, but not which one
-- you need a quick ownership map before a launch review
-- you want to confirm whether a task belongs to content, billing, legal, or referral settings
+Use this page when the task clearly belongs to a settings screen but the destination is still unclear.
 
 ## Access model
 
@@ -35,7 +18,7 @@ If a settings page is missing in production, check those two conditions first.
 
 ### General Settings
 
-Use this page for broad site-wide operational and presentation settings.
+Broad site-wide operational and presentation settings.
 
 Typical areas:
 
@@ -49,7 +32,7 @@ See also: [General Settings](/admin-guide/general-settings)
 
 ### Invoice Settings
 
-Use this page for invoice-related configuration and output checks.
+Invoice-related configuration and output checks.
 
 Typical areas:
 
@@ -61,7 +44,7 @@ See also: [Invoice Settings](/admin-guide/invoice-settings)
 
 ### Legal Pages Settings
 
-Use this page for the public legal documents rendered on:
+Public legal documents rendered on:
 
 - `/terms-of-service`
 - `/privacy-policy`
@@ -70,7 +53,7 @@ See also: [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
 
 ### Open Graph Image Settings
 
-Use this page for social-sharing image defaults or generated OG image behavior.
+Social-sharing image defaults and generated OG image behavior.
 
 Typical areas:
 
@@ -78,13 +61,11 @@ Typical areas:
 - release branding consistency
 - share-card presentation
 
-This is especially important before first launch because social previews are often one of the first external impressions of the product.
-
 See also: [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)
 
 ### Referral Settings
 
-Use this page for referral program behavior and reward tuning.
+Referral program behavior and reward tuning.
 
 Typical areas:
 
@@ -100,8 +81,6 @@ See also: [Referral Settings](/admin-guide/referral-settings)
 2. Confirm no page still contains test or placeholder values.
 3. Verify that each settings page aligns with both `.env` and public-facing behavior.
 4. Record which teammate owns each settings area after launch.
-
-In `admin9-tenancy`, also record whether ownership sits with the platform team or with tenant administrators.
 
 ## Related guides
 

@@ -1,18 +1,9 @@
 ---
 title: 安装
-description: 从源码启动共享 Admin9 应用技术栈的全新安装说明。
+description: 从源码安装并启动 Admin9。
 ---
 
-全新环境请从这里开始；当技术栈跑起来后，日常请以本地开发指南为主。
-
-## 适用范围
-
-本页是以下两个产品的共享安装基线：
-
-- `admin9`（单租户）
-- `admin9-tenancy`（多租户）
-
-如果你安装的是多租户变体，请先完成本页步骤，再阅读 [Admin9 多租户补充说明](/zh/guides/admin9-tenancy) 了解租户特有差异。
+全新环境请从这里开始；跑起来后，日常开发请参考本地开发指南。
 
 ## 环境要求
 
@@ -37,11 +28,9 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-如果你使用多租户仓库，请替换为对应的 `admin9-tenancy` 克隆地址与工作目录。
-
 ## 配置环境变量
 
-默认 `.env.example` 使用 Docker Compose 服务名：
+`.env.example` 默认使用 Docker Compose 服务名：
 
 ```env
 DB_CONNECTION=mysql
@@ -65,7 +54,7 @@ QUEUE_CONNECTION=sync
 php artisan migrate:fresh --seed
 ```
 
-默认 seeder 当前会初始化：
+默认 seeder 会初始化：
 
 - intervals
 - currencies

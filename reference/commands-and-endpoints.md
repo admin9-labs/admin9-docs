@@ -3,7 +3,7 @@ title: Commands and Endpoints
 description: Quick reference for common development commands, panel paths, and application endpoints.
 ---
 
-Treat this as the quick lookup for commands, routes, and panel paths when a longer guide would be overkill.
+Use this page as a quick lookup for commands, routes, and panel paths.
 
 ## Common commands
 

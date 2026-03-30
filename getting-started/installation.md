@@ -1,18 +1,9 @@
 ---
 title: Installation
-description: Fresh setup instructions for running the shared Admin9 application stack from source.
+description: Install and start Admin9 from source.
 ---
 
-Fresh setups begin here; once the stack is running, the local development guide becomes the better day-to-day reference.
-
-## Applies to
-
-This page is the shared installation baseline for:
-
-- `admin9` as the single-tenant product
-- `admin9-tenancy` as the multi-tenant product
-
-If you are installing the multi-tenant variant, use this page first and then review [Admin9 Tenancy Supplement](/guides/admin9-tenancy) for tenant-specific differences.
+Install and start Admin9 from source.
 
 ## Requirements
 
@@ -23,7 +14,7 @@ If you are installing the multi-tenant variant, use this page first and then rev
 - Redis
 - Mailpit or another local SMTP sink
 
-The repository also includes a Docker Compose setup based on Laravel Sail, which is the fastest path for a reproducible local environment.
+The repository also includes a Docker Compose setup based on Laravel Sail.
 
 ## Clone and install
 
@@ -37,11 +28,9 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-If you are working from the multi-tenant repository, substitute the corresponding `admin9-tenancy` clone URL and working directory.
-
 ## Configure environment
 
-The default `.env.example` expects the Docker Compose service names:
+`.env.example` defaults to Docker Compose service names:
 
 ```env
 DB_CONNECTION=mysql
@@ -65,7 +54,7 @@ If you are not using Docker Compose, replace those hostnames with your local ser
 php artisan migrate:fresh --seed
 ```
 
-The default database seeder currently loads:
+The default database seeder loads:
 
 - intervals
 - currencies

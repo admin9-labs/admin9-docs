@@ -1,18 +1,9 @@
 ---
 title: Payments and Billing
-description: Payment providers, billing flows, checkout routes, and webhook considerations for the shared Admin9 product stack.
+description: Payment providers, billing flows, checkout routes, and webhook considerations.
 ---
 
 Checkout and billing code changes should start here before dropping into provider-specific implementation.
-
-## Applies to
-
-This billing guide is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, verify whether products, subscriptions, invoices, and reporting are owned at tenant scope, platform scope, or both.
 
 ## Supported payment providers
 
@@ -88,7 +79,7 @@ The webhook endpoints are:
 - `/api/payments-providers/paddle/webhook`
 - `/api/payments-providers/lemon-squeezy/webhook`
 
-Before production release:
+Before release:
 
 - configure webhook signing secrets
 - make sure the public URL is reachable from the provider
@@ -119,7 +110,7 @@ LEMON_SQUEEZY_SIGNING_SECRET=""
 LEMON_SQUEEZY_IS_TEST_MODE=false
 ```
 
-## Recommended release validation
+## Recommended Validation
 
 - create a checkout session for each enabled provider
 - confirm a successful payment creates the expected subscription or order state
@@ -128,5 +119,3 @@ LEMON_SQUEEZY_IS_TEST_MODE=false
 - verify discount application
 - verify plan change behavior
 - verify cancellation or failure handling
-
-If you are releasing `admin9-tenancy`, also verify webhook processing and billing side effects under the correct tenant boundary.

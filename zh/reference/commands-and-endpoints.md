@@ -1,9 +1,9 @@
 ---
 title: 命令与端点
-description: 常用开发命令、面板路径与应用端点速查。
+description: 常用开发命令、面板路径与应用端点。
 ---
 
-当不需要阅读完整指南时，可把本页作为命令、路由与面板路径的速查表。
+不想翻完整文档时，可以直接查这页。
 
 ## 常用命令
 
@@ -70,7 +70,7 @@ php dep deploy
 - `/auth/{provider}/redirect`
 - `/auth/{provider}/callback`
 
-当前路由约束允许的 provider 值：
+路由约束允许的 provider 值：
 
 - `google`
 - `github`
@@ -116,4 +116,4 @@ php dep deploy
 - `/api/payments-providers/paddle/webhook`
 - `/api/payments-providers/lemon-squeezy/webhook`
 
-注意：当前代码库路径段是 `payments-providers`。除非你明确要做破坏性路由变更，否则请保持该路径不变。
+注意：代码库里的路径段是 `payments-providers`。除非你明确要做破坏性路由变更，否则不要改。

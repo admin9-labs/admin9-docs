@@ -3,7 +3,7 @@ title: Providers and Integrations
 description: Admin-side setup areas for payment, email, OAuth, and verification providers.
 ---
 
-This page is the integration index for `/admin`, helping you route a task to the correct provider family before you get into provider-specific detail.
+Use this page to route a task to the right provider family in `/admin`.
 
 ## Payment providers
 
@@ -90,6 +90,6 @@ Keep an internal runbook that documents:
 
 ## Usage order
 
-1. Use this page to identify the provider family and ownership model.
+1. Identify the provider family.
 2. Open the provider-specific page for field-level setup and validation steps.
 3. Record the final production values in the launch runbook or internal credential inventory.

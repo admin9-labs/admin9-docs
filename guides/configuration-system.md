@@ -1,31 +1,22 @@
 ---
 title: Configuration System
-description: How the shared Admin9 stack overrides runtime configuration through the admin panel, database-backed settings, and cached config values.
+description: How Admin9 overrides runtime configuration through the admin panel, database-backed settings, and cached config values.
 ---
 
-This is the page to read when a runtime value is unclear and you need to trace whether code, `.env`, or admin settings are winning.
-
-## Applies to
-
-This configuration model is the shared baseline for:
-
-- `admin9`
-- `admin9-tenancy`
-
-In the multi-tenant variant, verify whether the config system remains platform-global or whether selected keys support tenant-level overrides.
+Read this when a runtime value is unclear and you need to trace whether code, `.env`, or admin settings are winning.
 
 At a high level:
 
-- baseline values come from `config/*.php` and `.env`
+- initial values come from `config/*.php` and `.env`
 - selected settings can be overridden from the admin panel
 - overridden values are stored in the database
 - runtime reads are cached so the application does not hit the database on every request
 
-This is one of the most important architectural ideas in the project because many admin settings pages rely on it.
+Many admin settings pages rely on this system.
 
 ## Why it exists
 
-This system allows operators to change production-facing behavior without redeploying the application for every settings change.
+This system lets operators change production-facing behavior without redeploying for every settings change.
 
 Typical examples include:
 
@@ -35,7 +26,7 @@ Typical examples include:
 - provider-specific settings
 - site-level behavior exposed through admin pages
 
-## Main pieces
+## Main Pieces
 
 The key components referenced by the codebase are:
 
@@ -50,7 +41,7 @@ These work together to:
 - encrypt sensitive settings where required
 - cache resolved values for runtime use
 
-## Operational model
+## Operational Model
 
 When an operator changes a setting in Filament:
 
@@ -61,7 +52,7 @@ When an operator changes a setting in Filament:
 
 This means many settings become effective immediately without a code deploy.
 
-## Security model
+## Security Model
 
 Not every config key should be editable from the admin panel.
 
@@ -69,7 +60,7 @@ The project uses an allowlist model through `ConfigConstants` so only intended k
 
 This is the correct pattern. Do not turn the settings system into a generic write-any-config mechanism.
 
-## Developer extension pattern
+## Developer Extension Pattern
 
 If you want to expose a new setting in admin:
 
@@ -79,13 +70,13 @@ If you want to expose a new setting in admin:
 4. expose it through a Filament page or Livewire form
 5. read it through Laravel's config helper in the application code
 
-## Operational risks
+## Operational Risks
 
 - clearing cache without repopulating settings can create confusing runtime behavior
 - long-lived workers may continue using older resolved config until restarted
 - admin-side credentials can drift away from `.env` if the team does not define a clear source of truth
 
-## Recommended team rule
+## Team Rule
 
 For every configurable concern, document whether the source of truth is:
 
@@ -94,5 +85,3 @@ For every configurable concern, document whether the source of truth is:
 - or a hybrid bootstrapping model where `.env` seeds the initial value and admin owns changes afterward
 
 Without that clarity, production debugging becomes slow.
-
-For `admin9-tenancy`, add one more rule: document whether each admin-managed setting is global, tenant-scoped, or inherited from a global default.

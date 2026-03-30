@@ -2,7 +2,7 @@
 title: Laravel 软件包
 description: 由 Admin9 Labs 发布的可复用 Laravel 软件包。
 ---
-当你需要来自 Admin9 Labs 的可复用软件包，而不是完整的 starter 应用时，更适合查看本页。
+要找可复用软件包，而不是 starter 应用时，看这页。
 
 ## 身份与认证
 
@@ -12,7 +12,7 @@ description: 由 Admin9 Labs 发布的可复用 Laravel 软件包。
 - 主语言：PHP
 - 许可证：MIT
 
-该软件包为 Laravel 实现了一个支持授权码流程与 PKCE 的 OpenID Connect 客户端。当你的 Laravel 应用需要通过标准 OIDC 流程对接外部身份提供方认证时，它非常合适。
+这个包为 Laravel 提供支持授权码流程和 PKCE 的 OpenID Connect 客户端。Laravel 应用要接外部身份提供方时，可以用它。
 
 ### laravel-oidc-server
 
@@ -30,7 +30,7 @@ description: 由 Admin9 Labs 发布的可复用 Laravel 软件包。
 - 主语言：Blade
 - 许可证：MIT
 
-该软件包为 DaisyUI 5 组件提供了 Laravel 友好的 Blade 封装。对于希望复用 UI 基础组件、但不想从零自建 Blade 组件的团队很有帮助。
+这个包为 DaisyUI 5 组件提供 Laravel 友好的 Blade 封装。想复用 UI 基础组件时可以直接用。
 
 ### laravel-scramble-extensions
 

@@ -2,34 +2,30 @@
 
 This repository contains the Mintlify source content for the Admin9 Labs documentation site.
 
-It is a standalone documentation repository for Admin9 Labs product and open source documentation.
-
 ## Purpose
 
-This repository is intended to hold:
+This repository holds:
 
-- product documentation for `admin9` and `admin9-tenancy`
+- product documentation for `admin9`
 - developer documentation
 - admin and operations documentation
 - release and deployment guidance
-- product variant notes
 - open source portfolio pages
 - Mintlify configuration for the public docs site
 
-It is not the application repository for either product variant.
+It is not the application repository.
 
 ## Structure
 
 - `docs.json` - Mintlify configuration
 - `index.md` - docs homepage
-- `products/` - product and variant overview pages
 - `getting-started/` - installation and local development
 - `architecture/` - system and codebase structure
 - `guides/` - developer-focused feature and integration guides
 - `admin-guide/` - admin and operations documentation
 - `reference/` - commands and quality references
 - `deployment/` - release and deployment checklists
-- `open-source/` - portfolio and repository overview pages
+- `open-source/` - public repository pages
 
 ## Local checks
 
@@ -67,12 +63,11 @@ This repository includes a GitHub Actions workflow that runs Mintlify broken-lin
 
 It also runs markdown link validation across the repository so broken external links and moved internal references are caught before merge.
 
-## Relationship to product repositories
+## Relationship to the product repository
 
-The source of truth for product behavior remains the relevant application repository:
+The source of truth for product behavior remains the application repository:
 
-- `admin9` for the single-tenant product
-- `admin9-tenancy` for the multi-tenant product
+- `admin9`
 
 When updating docs, prefer to verify details against:
 
@@ -105,4 +100,4 @@ Pages most likely to drift and should be checked first:
 - Documentation content should track the current product repositories.
 - When product behavior changes, update docs from the relevant codebase rather than from older marketing material or inherited docs.
 - Keep Mintlify navigation in `docs.json` aligned with the actual file structure.
-- Keep the homepage, section overview pages, and `README.md` consistent about audience, repo structure, and source-of-truth files.
+- Keep `index.md`, section landing pages, and `README.md` aligned with the actual repo structure.

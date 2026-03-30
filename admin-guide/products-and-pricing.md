@@ -3,16 +3,7 @@ title: Products and Pricing
 description: How Admin9 operators manage products, plans, pricing, discounts, subscriptions, and commerce data from the admin panel.
 ---
 
-Come here to review the catalog and pricing surfaces that shape what customers can purchase.
-
-## Applies to
-
-This guide is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, verify whether catalog entities and billing records are managed globally, per tenant, or in a hybrid model before defining operational ownership.
+Use this page to review the catalog and pricing surfaces that shape what customers can purchase.
 
 ## Core resources
 
@@ -84,5 +75,3 @@ Use them to:
 - confirm discounts are scoped and dated correctly
 - verify test purchases for both subscriptions and one-time products
 - verify invoices and transaction records appear as expected
-
-For `admin9-tenancy`, also verify that catalog visibility, pricing scope, and transaction reporting behave correctly across tenant boundaries.

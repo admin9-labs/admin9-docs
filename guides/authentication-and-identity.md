@@ -1,18 +1,9 @@
 ---
 title: Authentication and Identity
-description: Authentication, social login, verification flows, two-factor auth, and token-related behavior in the shared Admin9 stack.
+description: Authentication, social login, verification flows, two-factor auth, and token-related behavior in Admin9.
 ---
 
-Authentication changes should start here whenever they touch login, verification, identity state, or token behavior.
-
-## Applies to
-
-This identity guide is shared by:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) when login boundaries, tenant membership, or tenant-scoped access rules affect the flow.
+Authentication work lands here when it touches login, verification, identity state, or token behavior.
 
 ## Main auth building blocks
 
@@ -32,7 +23,7 @@ The `User` model implements:
 - one-time passwords
 - two-factor authentication
 
-This makes the user model the center of both back-office access and customer authentication flows.
+The user model sits at the center of both back-office access and customer authentication.
 
 ## Social login
 
@@ -89,5 +80,3 @@ Treat OAuth2 / OpenID Connect provider behavior as something to verify in the sp
 - verify 2FA enrollment and recovery codes
 - verify admin access rules separately from dashboard access rules
 - verify any external identity-provider integration only after confirming the deployed app actually exposes the required endpoints
-
-For `admin9-tenancy`, also verify how users are associated with tenants and whether authentication redirects preserve the intended tenant context.

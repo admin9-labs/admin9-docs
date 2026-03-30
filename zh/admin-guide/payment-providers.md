@@ -1,17 +1,8 @@
 ---
 title: 支付提供商
-description: 共享 Admin9 栈中 Stripe、Paddle 与 Lemon Squeezy 的管理端配置与运营检查。
+description: Stripe、Paddle 与 Lemon Squeezy 的管理端配置与检查。
 ---
-当你需要从管理端检查支付路由、凭据或提供商就绪状态时，请使用本指南。
-
-## 适用范围
-
-本页适用于：
-
-- `admin9`
-- `admin9-tenancy`
-
-对于 `admin9-tenancy`，请确认提供商凭据与产品映射是全局管理、按租户管理，还是混合模式。
+从管理端检查支付路由、凭据或提供商状态时，看这页。
 
 ## 支持的提供商
 
@@ -22,9 +13,9 @@ description: 共享 Admin9 栈中 Stripe、Paddle 与 Lemon Squeezy 的管理端
 - Lemon Squeezy
 
 Offline payment support exists at the application level, but the provider-specific admin settings pages currently focus on the hosted providers above.
-应用层支持离线支付，但当前提供商专用管理设置页主要覆盖上述托管支付提供商。
+应用层支持离线支付，这里主要写上述托管支付提供商。
 
-## 运营人员应在此管理的内容
+## 要检查的事
 
 - 启用或禁用某个提供商
 - 审核提供商记录
@@ -63,7 +54,7 @@ LEMON_SQUEEZY_IS_TEST_MODE=false
 
 ## 运营检查
 
-发布前，对每个已启用提供商确认：
+对每个已启用提供商确认：
 
 - 凭据有效
 - sandbox 与 production 模式设置正确

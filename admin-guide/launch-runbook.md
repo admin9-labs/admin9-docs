@@ -1,26 +1,9 @@
 ---
 title: Launch Runbook
-description: Operator-focused first-release runbook for the shared Admin9 product stack before opening a deployment to external users.
+description: Operator-focused first-release runbook before opening a deployment to external users.
 ---
 
 Use this runbook to coordinate the final admin-side checks before opening a new deployment to external users.
-
-## Applies to
-
-This runbook is the shared launch baseline for:
-
-- `admin9`
-- `admin9-tenancy`
-
-For `admin9-tenancy`, keep this runbook as the default operator checklist and add tenant-specific launch checks for tenant provisioning, tenant domains, tenant branding, and platform-versus-tenant ownership boundaries.
-
-## When to use this runbook
-
-Use this page when:
-
-- you are preparing the first public launch of a deployment
-- you need a final cross-functional review across admin settings, content, and infrastructure
-- you want a single release checklist that links operator tasks together
 
 ## Scope of this runbook
 

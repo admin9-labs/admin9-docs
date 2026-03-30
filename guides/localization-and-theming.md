@@ -1,6 +1,6 @@
 ---
 title: Localization and Theming
-description: How the shared Admin9 stack handles localized URLs, translation support, DaisyUI themes, and Filament theme synchronization.
+description: How Admin9 handles localized URLs, translation support, DaisyUI themes, and Filament theme synchronization.
 ---
 
 Locale-aware UI work and theme-related changes both converge here.

@@ -1,18 +1,9 @@
 ---
 title: 配置
-description: 发布前开发者需要掌握的环境变量、服务配置与关键开关。
+description: 环境变量、服务配置与关键开关。
 ---
 
-在追踪某个具体服务或子系统前，先用本页建立完整配置视图。
-
-## 适用范围
-
-本页描述以下产品的共享配置基线：
-
-- `admin9`
-- `admin9-tenancy`
-
-在多租户变体中，请将本页视为平台级默认配置，并额外确认哪些设置支持按租户覆盖。相关边界请阅读 [Admin9 多租户补充说明](/zh/guides/admin9-tenancy)。
+排查服务或子系统前，先看这页。
 
 ## 核心应用设置
 
@@ -26,9 +17,7 @@ APP_URL=http://localhost
 APP_TIMEZONE=UTC
 ```
 
-`APP_URL` 是高影响配置，它会影响 URL 生成以及默认 OIDC issuer。
-
-对于 `admin9-tenancy`，还要确认租户域名、租户子域名或租户级 URL 生成是否在默认 `APP_URL` 之外再增加一层逻辑。
+`APP_URL` 会影响 URL 生成以及默认 OIDC issuer。
 
 ## 数据库、会话、队列、缓存
 
@@ -64,11 +53,11 @@ MAIL_FROM_ADDRESS="hello@example.com"
 - `FACEBOOK_CLIENT_ID`
 - `FACEBOOK_CLIENT_SECRET`
 
-默认数据库 seeder 也会初始化 OAuth 登录服务商记录。
+数据库 seeder 也会初始化 OAuth 登录服务商记录。
 
 ## 支付
 
-当前已配置的服务商变量分组包括：
+服务商变量包括：
 
 - Stripe
 - Paddle
@@ -120,7 +109,7 @@ TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED=false
 - `TRACKING_SCRIPTS`
 - social profile URLs for Facebook, X, Instagram, LinkedIn, YouTube, GitHub, and Discord
 
-## 发布前重点检查的配置文件
+## 重点检查的配置文件
 
 - `config/app.php`
 - `config/auth.php`
@@ -146,8 +135,6 @@ TRIAL_WITHOUT_PAYMENT_SMS_VERIFICATION_ENABLED=false
 - Referral settings
 
 请在部署文档中写清哪些设置应通过 UI 配置，哪些应通过 `.env` 配置，方便运营侧执行。
-
-对于 `admin9-tenancy`，还应标注哪些设置是平台全局，哪些由租户管理。
 
 ## 相关阅读
 

@@ -26,4 +26,4 @@ Check the Filament page `App\Filament\Admin\Pages\ReferralSettings` to see the e
 - verify referral links appear correctly in customer dashboards or marketing emails
 - verify referral credits or discounts are applied in `BalanceTransaction` or `Discount` records
 - verify there is monitoring for fraud, multiple accounts, or excessive rewards
-- confirm `Launch Runbook` includes referral readiness so anyone auditing the release knows referrals are enabled intentionally
+- confirm `Launch Runbook` includes referral readiness

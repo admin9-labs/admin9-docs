@@ -1,20 +1,11 @@
 ---
-title: 架构总览
-description: 共享 Admin9 应用架构的高层认知模型，涵盖面板、服务、事件与用户侧流程。
+title: 架构
+description: Admin9 应用架构说明，涵盖面板、服务、事件与用户侧流程。
 ---
 
-在深入模块、路由或服务之前，先读本页把系统全貌建立起来。
+先看这页，再进具体模块。
 
-## 适用范围
-
-本架构总览是以下两个产品的共享基线：
-
-- `admin9`
-- `admin9-tenancy`
-
-对于多租户变体，请将本页作为默认系统地图，并结合 [Admin9 多租户补充说明](/zh/guides/admin9-tenancy) 理解租户边界。
-
-## 运行时入口面
+## 运行面
 
 ### 公共 Web 应用
 
@@ -27,7 +18,7 @@ Web 层提供：
 - blog and roadmap pages
 - invoice generation and preview
 
-这些路由主要定义在 `routes/web.php`。
+这些路由主要在 `routes/web.php` 中定义。
 
 ### 管理后台
 
@@ -37,7 +28,7 @@ Web 层提供：
 /admin
 ```
 
-它是营收、产品、用户、内容、路线图与系统设置的运营入口。
+这里处理营收、产品、用户、内容、路线图和系统设置。
 
 ### 用户仪表盘
 
@@ -49,11 +40,7 @@ Web 层提供：
 
 它承载面向客户的账户区域、订阅操作、推荐、余额管理与资料功能。
 
-## 多租户说明
-
-在 `admin9-tenancy` 中，这些运行入口通常会叠加租户感知路由、租户作用域数据访问，以及更明确的平台级与租户级管理边界。
-
-## 架构模式
+## 结构
 
 ### 服务层
 
@@ -75,7 +62,7 @@ Key examples:
 
 领域事件按业务关注点放在 `app/Events`，对应监听器放在 `app/Listeners`。
 
-当前事件覆盖领域包括：
+事件主要分布在这些领域：
 
 - balance
 - order
@@ -97,9 +84,9 @@ Key examples:
 - `VerificationProviderInterface`
 - `BalanceTopupProviderInterface`
 
-## 主要平台能力
+## 模块
 
-### 商业能力
+### 商业
 
 - subscription billing
 - one-time purchases
@@ -131,6 +118,6 @@ Key examples:
 - 本地化 URL
 - SEO 与站点地图支持
 
-## 版本说明
+## 版本
 
-部分历史文档仍提到 Livewire 3 与 Filament 4。当前代码依赖显示为 Livewire 4 与 Filament 5，请以依赖清单为准。
+部分历史文档仍提到 Livewire 3 与 Filament 4，请以依赖清单为准。

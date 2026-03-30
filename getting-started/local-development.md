@@ -3,20 +3,11 @@ title: Local Development
 description: Daily developer workflow, service expectations, and common environment tasks.
 ---
 
-After installation, this becomes the working reference for normal local commands, services, and environment expectations.
+Use this page for daily local work after installation.
 
-## Applies to
+## Docker Compose
 
-This page is shared by both product variants. Read it as the default workflow for:
-
-- `admin9`
-- `admin9-tenancy`
-
-If tenant resolution, tenant domains, or tenant-scoped jobs affect your local setup, add [Admin9 Tenancy Supplement](/guides/admin9-tenancy) to your reading path.
-
-## Default Docker Compose topology
-
-The repository ships a `docker-compose.yml` with these services:
+`docker-compose.yml` includes these services:
 
 - `laravel.test`
 - `mysql`
@@ -24,7 +15,7 @@ The repository ships a `docker-compose.yml` with these services:
 - `redis`
 - `ngrok`
 
-Relevant forwarded ports from `.env.example`:
+Relevant forwarded ports:
 
 - App: `APP_PORT=8080`
 - Vite: `VITE_PORT=5173`
@@ -60,11 +51,11 @@ vendor/bin/phpstan analyse
 vendor/bin/pint
 ```
 
-## Development assumptions in the current codebase
+## Environment Notes
 
-- Queues default to `sync` in `.env.example`, but Horizon support is already installed for Redis-backed workers.
+- Queues default to `sync` in `.env.example`, but Horizon is already installed for Redis-backed workers.
 - Mail defaults to Mailpit.
-- Payment, social login, Twilio, and reCAPTCHA credentials are empty by default and must be explicitly configured before testing those flows.
+- Payment, social login, Twilio, and reCAPTCHA credentials are empty by default and must be configured before testing.
 - `.env.example` includes `OIDC_ISSUER`, but OAuth2 / OIDC provider endpoints should be verified before you rely on that integration path.
 
 ## Recommended local bring-up sequence
