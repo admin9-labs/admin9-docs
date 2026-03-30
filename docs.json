@@ -8,22 +8,6 @@
     "light": "#ff7a66",
     "dark": "#a82100"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Docs",
-        "href": "/"
-      },
-      {
-        "label": "Admin Guide",
-        "href": "/admin-guide/overview"
-      },
-      {
-        "label": "Reference",
-        "href": "/reference/commands-and-endpoints"
-      }
-    ]
-  },
   "navigation": {
     "tabs": [
       {
