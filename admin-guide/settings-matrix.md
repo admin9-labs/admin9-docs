@@ -7,6 +7,14 @@ description: A quick map of the main ADMIN9 admin settings pages and what each o
 
 ADMIN9 exposes several standalone settings pages in the admin panel. This page maps those screens to their intended responsibility so operators know where to make changes.
 
+## When to use this page
+
+Use this page when:
+
+- you know the change belongs to a settings screen, but not which one
+- you need a quick ownership map before a launch review
+- you want to confirm whether a task belongs to content, billing, legal, or referral settings
+
 ## Access model
 
 The current settings pages share the same access pattern:
@@ -85,3 +93,12 @@ See also: [Referral Settings](./referral-settings.md)
 2. Confirm no page still contains test or placeholder values.
 3. Verify that each settings page aligns with both `.env` and public-facing behavior.
 4. Record which teammate owns each settings area after launch.
+
+## Related guides
+
+- [General Settings](./general-settings.md)
+- [Invoice Settings](./invoice-settings.md)
+- [Legal Pages and Compliance](./legal-pages-and-compliance.md)
+- [Analytics and Open Graph](./analytics-and-open-graph.md)
+- [Referral Settings](./referral-settings.md)
+- [Launch Runbook](./launch-runbook.md)

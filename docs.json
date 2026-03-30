@@ -52,27 +52,47 @@
         "tab": "Admin Guide",
         "groups": [
           {
-            "group": "Admin Guide",
+            "group": "Start Here",
             "pages": [
               "admin-guide/overview",
+              "admin-guide/launch-runbook",
+              "admin-guide/settings-matrix"
+            ]
+          },
+          {
+            "group": "Catalog & Revenue",
+            "pages": [
               "admin-guide/products-and-pricing",
               "admin-guide/subscriptions-and-transactions",
-              "admin-guide/providers-and-integrations",
               "admin-guide/payment-providers",
-              "admin-guide/email-providers",
+              "admin-guide/invoice-settings",
+              "admin-guide/referral-settings"
+            ]
+          },
+          {
+            "group": "Users & Access",
+            "pages": [
+              "admin-guide/users-and-access",
               "admin-guide/oauth-providers",
               "admin-guide/verification-providers",
-              "admin-guide/invoice-settings",
-              "admin-guide/referral-settings",
-              "admin-guide/users-and-access",
-              "admin-guide/support-playbook",
+              "admin-guide/support-playbook"
+            ]
+          },
+          {
+            "group": "Content & Site Operations",
+            "pages": [
               "admin-guide/content-and-site-settings",
               "admin-guide/content-operations",
               "admin-guide/legal-pages-and-compliance",
-              "admin-guide/settings-matrix",
               "admin-guide/general-settings",
-              "admin-guide/analytics-and-open-graph",
-              "admin-guide/launch-runbook"
+              "admin-guide/analytics-and-open-graph"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "admin-guide/providers-and-integrations",
+              "admin-guide/email-providers"
             ]
           }
         ]

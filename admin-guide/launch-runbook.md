@@ -9,6 +9,22 @@ This runbook is intended for the first public release of ADMIN9.
 
 Unlike an upgrade guide, this is a pre-launch operational checklist for a brand-new external release.
 
+## When to use this runbook
+
+Use this page when:
+
+- you are preparing the first public launch of a deployment
+- you need a final cross-functional review across admin settings, content, and infrastructure
+- you want a single release checklist that links operator tasks together
+
+## Scope of this runbook
+
+This runbook assumes:
+
+- core implementation work is already complete
+- provider credentials are available or about to be applied
+- operators are validating readiness, not designing features from scratch
+
 ## 1. Freeze scope
 
 Before the release window:
@@ -87,3 +103,12 @@ Only publish when:
 - legal content is ready
 - no placeholder branding remains
 - owners agree on support coverage for the first launch window
+
+## Related guides
+
+- [Products and Pricing](./products-and-pricing.md)
+- [Payment Providers](./payment-providers.md)
+- [Users and Access](./users-and-access.md)
+- [Support Playbook](./support-playbook.md)
+- [Content and Site Settings](./content-and-site-settings.md)
+- [Settings Matrix](./settings-matrix.md)
