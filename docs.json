@@ -114,6 +114,24 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Open Source",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "open-source/overview"
+            ]
+          },
+          {
+            "group": "Repositories",
+            "pages": [
+              "open-source/application-starters",
+              "open-source/laravel-packages"
+            ]
+          }
+        ]
       }
     ]
   },
