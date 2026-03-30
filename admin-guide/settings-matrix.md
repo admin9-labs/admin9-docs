@@ -36,7 +36,7 @@ Typical areas:
 - reCAPTCHA-related settings
 - social links and similar public metadata
 
-See also: [General Settings](./general-settings.md)
+See also: [General Settings](/admin-guide/general-settings)
 
 ### Invoice Settings
 
@@ -48,7 +48,7 @@ Typical areas:
 - invoice presentation requirements
 - business details that must appear on generated invoices
 
-See also: [Invoice Settings](./invoice-settings.md)
+See also: [Invoice Settings](/admin-guide/invoice-settings)
 
 ### Legal Pages Settings
 
@@ -57,7 +57,7 @@ Use this page for the public legal documents rendered on:
 - `/terms-of-service`
 - `/privacy-policy`
 
-See also: [Legal Pages and Compliance](./legal-pages-and-compliance.md)
+See also: [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
 
 ### Open Graph Image Settings
 
@@ -71,7 +71,7 @@ Typical areas:
 
 This is especially important before first launch because social previews are often one of the first external impressions of the product.
 
-See also: [Analytics and Open Graph](./analytics-and-open-graph.md)
+See also: [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)
 
 ### Referral Settings
 
@@ -83,7 +83,7 @@ Typical areas:
 - operational rollout choices
 - alignment between referral rules and public communication
 
-See also: [Referral Settings](./referral-settings.md)
+See also: [Referral Settings](/admin-guide/referral-settings)
 
 ## Recommended operator workflow
 
@@ -94,9 +94,9 @@ See also: [Referral Settings](./referral-settings.md)
 
 ## Related guides
 
-- [General Settings](./general-settings.md)
-- [Invoice Settings](./invoice-settings.md)
-- [Legal Pages and Compliance](./legal-pages-and-compliance.md)
-- [Analytics and Open Graph](./analytics-and-open-graph.md)
-- [Referral Settings](./referral-settings.md)
-- [Launch Runbook](./launch-runbook.md)
+- [General Settings](/admin-guide/general-settings)
+- [Invoice Settings](/admin-guide/invoice-settings)
+- [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
+- [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)
+- [Referral Settings](/admin-guide/referral-settings)
+- [Launch Runbook](/admin-guide/launch-runbook)

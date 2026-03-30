@@ -27,7 +27,7 @@ Before going live:
 - verify sandbox versus production mode
 - verify end-to-end checkout behavior for each enabled provider
 
-See also: [Payment Providers](./payment-providers.md)
+See also: [Payment Providers](/admin-guide/payment-providers)
 
 ## Email providers
 
@@ -47,7 +47,7 @@ Before release:
 - verify outbound delivery
 - verify template rendering for critical emails
 
-See also: [Email Providers](./email-providers.md)
+See also: [Email Providers](/admin-guide/email-providers)
 
 ## OAuth login providers
 
@@ -69,7 +69,7 @@ Before release:
 - verify callback URLs
 - verify branding and app approval requirements on each provider platform
 
-See also: [OAuth Providers](./oauth-providers.md)
+See also: [OAuth Providers](/admin-guide/oauth-providers)
 
 ## Verification providers
 
@@ -77,7 +77,7 @@ The panel includes a `Verification Providers` resource with Twilio settings supp
 
 Use this section when phone verification or SMS-gated trials are part of your release plan.
 
-See also: [Verification Providers](./verification-providers.md)
+See also: [Verification Providers](/admin-guide/verification-providers)
 
 ## Operator guidance
 

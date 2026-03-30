@@ -8,8 +8,8 @@ Start here if you need a map of the public repositories before choosing between 
 ## How to use this section
 
 - Start here if you want to understand which repositories are products, reusable packages, or support infrastructure.
-- Use [Application Starters](./application-starters.md) if you are evaluating full starter kits or reference apps.
-- Use [Laravel Packages](./laravel-packages.md) if you want reusable packages for auth, OIDC, UI, or API documentation.
+- Use [Application Starters](/open-source/application-starters) if you are evaluating full starter kits or reference apps.
+- Use [Laravel Packages](/open-source/laravel-packages) if you want reusable packages for auth, OIDC, UI, or API documentation.
 
 ## Portfolio map
 

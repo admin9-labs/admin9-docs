@@ -88,43 +88,43 @@ The admin guide is grouped by operator workflow rather than by code structure:
 
 ### 1. Start Here
 
-- [Overview](./overview.md) for the operating map of the admin panel
-- [Launch Runbook](./launch-runbook.md) for first-release preparation
-- [Settings Matrix](./settings-matrix.md) for a quick map of standalone settings pages
+- [Overview](/admin-guide/overview) for the operating map of the admin panel
+- [Launch Runbook](/admin-guide/launch-runbook) for first-release preparation
+- [Settings Matrix](/admin-guide/settings-matrix) for a quick map of standalone settings pages
 
 ### 2. Catalog and revenue operations
 
-- [Products and Pricing](./products-and-pricing.md) for catalog, plans, discounts, and billing entities
-- [Subscriptions and Transactions](./subscriptions-and-transactions.md) for day-to-day billing operations and audit trails
-- [Payment Providers](./payment-providers.md) for Stripe, Paddle, and Lemon Squeezy setup
-- [Invoice Settings](./invoice-settings.md) for invoice generation and seller metadata
-- [Referral Settings](./referral-settings.md) if referrals are part of the commercial launch
+- [Products and Pricing](/admin-guide/products-and-pricing) for catalog, plans, discounts, and billing entities
+- [Subscriptions and Transactions](/admin-guide/subscriptions-and-transactions) for day-to-day billing operations and audit trails
+- [Payment Providers](/admin-guide/payment-providers) for Stripe, Paddle, and Lemon Squeezy setup
+- [Invoice Settings](/admin-guide/invoice-settings) for invoice generation and seller metadata
+- [Referral Settings](/admin-guide/referral-settings) if referrals are part of the commercial launch
 
 ### 3. Users, access, and support
 
-- [Users and Access](./users-and-access.md) for roles, permissions, and admin boundaries
-- [OAuth Providers](./oauth-providers.md) for social login operations
-- [Verification Providers](./verification-providers.md) for SMS verification and trial gating
-- [Support Playbook](./support-playbook.md) for issue triage after launch
+- [Users and Access](/admin-guide/users-and-access) for roles, permissions, and admin boundaries
+- [OAuth Providers](/admin-guide/oauth-providers) for social login operations
+- [Verification Providers](/admin-guide/verification-providers) for SMS verification and trial gating
+- [Support Playbook](/admin-guide/support-playbook) for issue triage after launch
 
 ### 4. Content and site operations
 
-- [Content and Site Settings](./content-and-site-settings.md) for the high-level content surface
-- [Content Operations](./content-operations.md) for blog, FAQ, announcements, and roadmap workflows
-- [Legal Pages and Compliance](./legal-pages-and-compliance.md) for Terms, Privacy, and launch sign-off
-- [General Settings](./general-settings.md) for site-wide behavior, analytics, social links, and reCAPTCHA
-- [Analytics and Open Graph](./analytics-and-open-graph.md) for tracking and social preview validation
+- [Content and Site Settings](/admin-guide/content-and-site-settings) for the high-level content surface
+- [Content Operations](/admin-guide/content-operations) for blog, FAQ, announcements, and roadmap workflows
+- [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance) for Terms, Privacy, and launch sign-off
+- [General Settings](/admin-guide/general-settings) for site-wide behavior, analytics, social links, and reCAPTCHA
+- [Analytics and Open Graph](/admin-guide/analytics-and-open-graph) for tracking and social preview validation
 
 ### 5. Integrations overview
 
-- [Providers and Integrations](./providers-and-integrations.md) for payment, email, OAuth, and verification setup
-- [Email Providers](./email-providers.md) for mail delivery configuration and validation
+- [Providers and Integrations](/admin-guide/providers-and-integrations) for payment, email, OAuth, and verification setup
+- [Email Providers](/admin-guide/email-providers) for mail delivery configuration and validation
 
 ## If you are unsure where to start
 
-- start with [Launch Runbook](./launch-runbook.md) if you are preparing a release
-- start with [Support Playbook](./support-playbook.md) if you are handling a live customer issue
-- start with [Settings Matrix](./settings-matrix.md) if you know the task is in a settings page but not which one
+- start with [Launch Runbook](/admin-guide/launch-runbook) if you are preparing a release
+- start with [Support Playbook](/admin-guide/support-playbook) if you are handling a live customer issue
+- start with [Settings Matrix](/admin-guide/settings-matrix) if you know the task is in a settings page but not which one
 
 ## Audience boundary
 

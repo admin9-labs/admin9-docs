@@ -102,9 +102,9 @@ Only publish when:
 
 ## Related guides
 
-- [Products and Pricing](./products-and-pricing.md)
-- [Payment Providers](./payment-providers.md)
-- [Users and Access](./users-and-access.md)
-- [Support Playbook](./support-playbook.md)
-- [Content and Site Settings](./content-and-site-settings.md)
-- [Settings Matrix](./settings-matrix.md)
+- [Products and Pricing](/admin-guide/products-and-pricing)
+- [Payment Providers](/admin-guide/payment-providers)
+- [Users and Access](/admin-guide/users-and-access)
+- [Support Playbook](/admin-guide/support-playbook)
+- [Content and Site Settings](/admin-guide/content-and-site-settings)
+- [Settings Matrix](/admin-guide/settings-matrix)

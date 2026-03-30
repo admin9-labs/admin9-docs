@@ -72,7 +72,7 @@ Current event areas include:
 
 This is the right extension point for notifications, bookkeeping, and non-blocking side effects.
 
-For practical customization guidance, read [Events and Extension Points](../guides/events-and-extension-points.md).
+For practical customization guidance, read [Events and Extension Points](/guides/events-and-extension-points).
 
 ### Provider abstraction
 

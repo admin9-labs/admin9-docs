@@ -86,7 +86,7 @@ Before production release:
 - verify queue behavior for downstream side effects
 - replay sample webhooks from each enabled provider
 
-For local development workflows and provider callback testing, read [Payment Webhooks and Local Testing](./payment-webhooks-and-local-testing.md).
+For local development workflows and provider callback testing, read [Payment Webhooks and Local Testing](/guides/payment-webhooks-and-local-testing).
 
 ## Environment configuration
 

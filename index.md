@@ -78,23 +78,23 @@ The current codebase depends on:
 
 ## Read this documentation in order
 
-1. Start with [Installation](./getting-started/installation.md) if you need a fresh environment.
-2. Continue with [Local Development](./getting-started/local-development.md) for daily workflow.
-3. Read [Architecture Overview](./architecture/overview.md) to understand the main subsystems.
-4. Use [Configuration](./guides/configuration.md) and [Feature Systems](./guides/feature-systems.md) when enabling or extending specific capabilities.
-5. Use [Commands and Endpoints](./reference/commands-and-endpoints.md) and [Release Checklist](./deployment/release-checklist.md) before shipping.
+1. Start with [Installation](/getting-started/installation) if you need a fresh environment.
+2. Continue with [Local Development](/getting-started/local-development) for daily workflow.
+3. Read [Architecture Overview](/architecture/overview) to understand the main subsystems.
+4. Use [Configuration](/guides/configuration) and [Feature Systems](/guides/feature-systems) when enabling or extending specific capabilities.
+5. Use [Commands and Endpoints](/reference/commands-and-endpoints) and [Release Checklist](/deployment/release-checklist) before shipping.
 
-If you work primarily in `/admin`, switch to the [Admin Overview](./admin-guide/overview.md) after the installation flow.
+If you work primarily in `/admin`, switch to the [Admin Overview](/admin-guide/overview) after the installation flow.
 
-If you are reviewing the open source portfolio rather than deploying ADMIN9 itself, switch to [Open Source Overview](./open-source/overview.md) instead of continuing through the developer setup path.
+If you are reviewing the open source portfolio rather than deploying ADMIN9 itself, switch to [Open Source Overview](/open-source/overview) instead of continuing through the developer setup path.
 
 ## Core guides
 
-- [Authentication and Identity](./guides/authentication-and-identity.md)
-- [Payments and Billing](./guides/payments-and-billing.md)
-- [Localization and Theming](./guides/localization-and-theming.md)
-- [Configuration System](./guides/configuration-system.md)
-- [Payment Webhooks and Local Testing](./guides/payment-webhooks-and-local-testing.md)
-- [Events and Extension Points](./guides/events-and-extension-points.md)
+- [Authentication and Identity](/guides/authentication-and-identity)
+- [Payments and Billing](/guides/payments-and-billing)
+- [Localization and Theming](/guides/localization-and-theming)
+- [Configuration System](/guides/configuration-system)
+- [Payment Webhooks and Local Testing](/guides/payment-webhooks-and-local-testing)
+- [Events and Extension Points](/guides/events-and-extension-points)
 
 If prose and product behavior ever disagree, treat the current `admin9` codebase as authoritative.

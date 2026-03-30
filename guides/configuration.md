@@ -138,4 +138,4 @@ Document your deployment process so operators know which settings are expected t
 
 ## Related reading
 
-If you are extending or debugging the settings mechanism itself, read [Configuration System](./configuration-system.md).
+If you are extending or debugging the settings mechanism itself, read [Configuration System](/guides/configuration-system).

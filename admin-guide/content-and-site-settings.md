@@ -38,27 +38,27 @@ The content and site operations area also relies on these standalone settings pa
 
 Use this area for broad site-level behavior and presentation settings, including reCAPTCHA, social links, and some analytics-related configuration.
 
-See also: [General Settings](./general-settings.md)
+See also: [General Settings](/admin-guide/general-settings)
 
 ### Legal Pages Settings
 
 Use this area to maintain the Terms of Service and Privacy Policy content rendered on public routes.
 
-See also: [Legal Pages and Compliance](./legal-pages-and-compliance.md)
+See also: [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance)
 
 ### Open Graph Image Settings
 
 Use this area to maintain share-image defaults or generation-related behavior for SEO and social sharing.
 
-See also: [Analytics and Open Graph](./analytics-and-open-graph.md)
+See also: [Analytics and Open Graph](/admin-guide/analytics-and-open-graph)
 
 ## What does not belong here
 
 These topics are adjacent to launch operations, but they are grouped elsewhere in the admin guide:
 
-- invoice configuration: use [Invoice Settings](./invoice-settings.md)
-- referral program controls: use [Referral Settings](./referral-settings.md)
-- provider credentials and third-party setup: use [Providers and Integrations](./providers-and-integrations.md)
+- invoice configuration: use [Invoice Settings](/admin-guide/invoice-settings)
+- referral program controls: use [Referral Settings](/admin-guide/referral-settings)
+- provider credentials and third-party setup: use [Providers and Integrations](/admin-guide/providers-and-integrations)
 
 ## Editorial release checklist
 
@@ -72,7 +72,7 @@ These topics are adjacent to launch operations, but they are grouped elsewhere i
 
 ## Suggested reading inside this group
 
-1. Read [Content Operations](./content-operations.md) for blog, announcement, FAQ, and roadmap workflows.
-2. Read [Legal Pages and Compliance](./legal-pages-and-compliance.md) for Terms, Privacy, and release sign-off.
-3. Read [General Settings](./general-settings.md) for site-wide settings.
-4. Read [Analytics and Open Graph](./analytics-and-open-graph.md) for tracking and social preview validation.
+1. Read [Content Operations](/admin-guide/content-operations) for blog, announcement, FAQ, and roadmap workflows.
+2. Read [Legal Pages and Compliance](/admin-guide/legal-pages-and-compliance) for Terms, Privacy, and release sign-off.
+3. Read [General Settings](/admin-guide/general-settings) for site-wide settings.
+4. Read [Analytics and Open Graph](/admin-guide/analytics-and-open-graph) for tracking and social preview validation.
