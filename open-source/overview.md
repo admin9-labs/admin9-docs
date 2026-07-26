@@ -9,7 +9,7 @@ This section maps the public repositories across starters and packages.
 
 <CardGroup cols={2}>
   <Card title="Application Starters" href="/open-source/application-starters">
-    Full repositories you can clone and extend, including API, web, and documentation surfaces.
+    Full repositories you can clone and extend, including web and documentation surfaces.
   </Card>
   <Card title="Laravel Packages" href="/open-source/laravel-packages">
     Reusable packages for OpenID Connect, DaisyUI Blade components, and Scramble extensions.
@@ -20,8 +20,7 @@ This section maps the public repositories across starters and packages.
 
 ### Product and starter repositories
 
-- [`admin9-api`](https://github.com/admin9-labs/admin9-api): Laravel 12 REST API scaffold with JWT auth, RBAC, service-layer structure, audit events, and tests.
-- [`admin9-web`](https://github.com/admin9-labs/admin9-web): Vue-based frontend SPA starter intended to pair with `admin9-api`.
+- [`admin9-web`](https://github.com/admin9-labs/admin9-web): Vue-based frontend SPA starter.
 - [`admin9-docs`](https://github.com/admin9-labs/admin9-docs): Mintlify documentation source for this site.
 
 ### Laravel packages

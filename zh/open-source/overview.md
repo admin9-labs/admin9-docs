@@ -9,7 +9,7 @@ description: 公开开源项目与仓库关系。
 
 <CardGroup cols={2}>
   <Card title="应用 Starter" href="/zh/open-source/application-starters">
-    可直接克隆并扩展的完整仓库，覆盖 API、Web 与文档层面。
+    可直接克隆并扩展的完整仓库，覆盖 Web 与文档层面。
   </Card>
   <Card title="Laravel 包" href="/zh/open-source/laravel-packages">
     用于 OpenID Connect、DaisyUI Blade 组件与 Scramble 扩展的可复用包。
@@ -20,8 +20,7 @@ description: 公开开源项目与仓库关系。
 
 ### 产品与 Starter 仓库
 
-- [`admin9-api`](https://github.com/admin9-labs/admin9-api)：Laravel 12 REST API 脚手架，内置 JWT 认证、RBAC、服务层结构、审计事件与测试。
-- [`admin9-web`](https://github.com/admin9-labs/admin9-web)：基于 Vue 的前端 SPA starter，设计上与 `admin9-api` 搭配使用。
+- [`admin9-web`](https://github.com/admin9-labs/admin9-web)：基于 Vue 的前端 SPA starter。
 - [`admin9-docs`](https://github.com/admin9-labs/admin9-docs)：当前文档站的 Mintlify 源码仓库。
 
 ### Laravel 包

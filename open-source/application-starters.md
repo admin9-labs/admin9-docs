@@ -5,33 +5,16 @@ description: Public starter repositories and reference applications.
 
 Use this page when you need a runnable repository rather than a package.
 
-## admin9-api
-
-- Repository: [`admin9-labs/admin9-api`](https://github.com/admin9-labs/admin9-api)
-- Primary language: PHP
-- License: MIT
-
-`admin9-api` is a Laravel 12 REST API scaffold focused on common backend concerns that most commercial applications need early:
-
-- JWT authentication
-- role and permission management
-- service-layer architecture
-- audit events
-- test coverage out of the box
-
-Use it when you want a backend-first starter that already includes opinionated structure for admin and business APIs.
-
 ## admin9-web
 
 - Repository: [`admin9-labs/admin9-web`](https://github.com/admin9-labs/admin9-web)
 - Primary language: Vue
 - License: MIT
 
-`admin9-web` is the frontend SPA counterpart to `admin9-api`. It is useful when you want a separate frontend application instead of a monolith.
+`admin9-web` is an independent frontend SPA project for separately developed and deployed frontend applications.
 
 Use it when your delivery model is:
 
-- API backend plus SPA frontend
 - independent frontend deployment
 - auth and API contracts across multiple clients
 
@@ -43,6 +26,5 @@ This repository is the Mintlify source for the current documentation site. Use i
 
 ## Which starter to begin with
 
-- start with `admin9-api` if you want a backend-first Laravel foundation
-- start with `admin9-web` if you need a separate SPA frontend to pair with an API backend
+- start with `admin9-web` if you need a separate SPA frontend
 - start with `admin9-docs` if you are improving product docs, admin runbooks, or public documentation
